@@ -110,8 +110,8 @@ a:hover{
 
 .btn:hover{
   color: #ffffff;
-  background-color: #b7172a;
-  border-color: #b7172a!important;
+  background-color: #108e3e;
+  border-color: #108e3e!important;
 }
 
 .btn:focus, .btn:active, .btn:hover{
@@ -133,8 +133,8 @@ a:hover{
 
 .btn2:hover{
   color: #ffffff;
-  background-color: #b7172a;
-  border-color: #b7172a!important;
+  background-color: #108e3e;
+  border-color: #108e3e!important;
 }
 
 .btn2:focus, .btn:active, .btn:hover{
@@ -233,7 +233,7 @@ option{
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #b7172a;
+  background: #108e3e;
 }
 
 .footer{
@@ -272,7 +272,7 @@ option{
 .icon-size{
   vertical-align:bottom;
   font-size: 22px;
-  color: #b7172a;
+  color: #108e3e;
 }
 
 .home-logo{
@@ -291,7 +291,7 @@ option{
 
 .footer a:hover{
   text-decoration: none;
-  color: #b7172a;
+  color: #108e3e;
 }
 
 .centering{
@@ -304,4 +304,32 @@ option{
   filter: invert(100%);
   margin-bottom: 20px;
   transition: .5S;
+}
+
+.navbar{
+  background-color: rgba(0, 0, 0, 0.9);
+  font-size: medium;
+  color:#fff;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,1);
+}
+
+.navbar-nav>a{
+  color:#ffffff;
+  font-size: medium;
+  transition: .5s;
+}
+
+.navbar-nav>a:hover{
+  color:#ffffff!important;
+  transform: translateY(-2px);
+}
+
+.navbar-toggler{
+  border: none;
+}
+
+.navbar-toggler:focus, .navbar-toggler:active{
+  border: none!important;
+  outline: none !important;
+  box-shadow: none;
 }

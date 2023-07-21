@@ -50,6 +50,20 @@ div{
 	background-size: cover;
 }
 
+.gallery{
+	position: relative;
+	height: fit-content;
+	text-align: center;
+	background-image: url("../img/backgrounds/gallery.jpg");
+	background-size: auto 100%;
+	background-position: top;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+
 .home a{
 	color: #d2cfca;
 	text-decoration: none;
@@ -201,7 +215,7 @@ h1{
 .icon-size{
 	vertical-align:bottom;
 	font-size: 22px;
-	color: #b7172a;
+	color: #108e3e;
 }
 
 .social-icon{
@@ -239,7 +253,7 @@ h1{
 
 .footer a:hover{
 	text-decoration: none;
-	color: #b7172a;
+	color: #108e3e;
 }
 
 .form-control{
@@ -284,7 +298,7 @@ option{
 	position:relative;
 	height: 0;
 	border: solid;
-	border-color: #b7172a;
+	border-color: #108e3e;
 	border-width: thin;
 	border-radius: 10px;
 }
@@ -331,14 +345,6 @@ option{
 }
 
 
-.gallery{
-	position: relative;
-	height: fit-content;
-	text-align: center;
-	background-image: url("../img/backgrounds/gallery.jpg");
-	background-size: auto 100%;
-	text-align: center;
-}
 
 .img-gallery{
 	display: block;
@@ -392,12 +398,12 @@ option{
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-	background: #f2f2f2 ;
+	background: #f2f2f2;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-	background: #b7172a;
+	background: #108e3e;
 }
 
 
@@ -444,65 +450,6 @@ option{
 .buttxn:hover {
 	background-color: rgba(0,0,0,.1);
 }
-
-
-
-#mito-gallery1:target ~ .image-slider #img1,
-#mito-gallery1:target ~ .image-slider #button-1{
-	scale: 1.2;
-	background-color: transparent;
-	filter: saturate(100%);
-}
-
-#mito-gallery2:target ~ .image-slider #img2,
-#mito-gallery2:target ~ .image-slider #button-2{
-	scale: 1.2;
-	background-color: transparent;
-	filter: saturate(100%);
-}
-
-#mito-gallery3:target ~ .image-slider #img3,
-#mito-gallery3:target ~ .image-slider #button-3{
-	scale: 1.2;
-	background-color: transparent;
-	filter: saturate(100%);
-}
-
-#mito-gallery4:target ~ .image-slider #img4,
-#mito-gallery4:target ~ .image-slider #button-4{
-	scale: 1.2;
-	background-color: transparent;
-	filter: saturate(100%);
-}
-
-#mito-gallery5:target ~ .image-slider #img5,
-#mito-gallery5:target ~ .image-slider #button-5{
-	scale: 1.2;
-	background-color: transparent;
-	filter: saturate(100%);
-}
-
-#mito-gallery6:target ~ .image-slider #img6,
-#mito-gallery6:target ~ .image-slider #button-6{
-	scale: 1.2;
-	background-color: transparent;
-	filter: saturate(100%);
-}
-
-#mito-gallery7:target ~ .image-slider #img7,
-#mito-gallery7:target ~ .image-slider #button-7{
-	scale: 1.2;
-	background-color: transparent;
-	filter: saturate(100%);
-}
-
-
-#mito-gallery1:target ~ .image-slider{left:40%;}
-#mito-gallery2:target ~ .image-slider{left:25%;}
-#mito-gallery3:target ~ .image-slider{left:15%;}
-#mito-gallery5:target ~ .image-slider{left:-15%;}
-#mito-gallery6:target ~ .image-slider{left:-25%;}
-#mito-gallery7:target ~ .image-slider{left:-40%;}
 
 
 
@@ -565,14 +512,6 @@ option{
 	.modal-dialog{
 		left: 90%!important;
 	}
-
-	#mito-gallery1:target ~ .image-slider{left:180%;}
-	#mito-gallery2:target ~ .image-slider{left:120%;}
-	#mito-gallery3:target ~ .image-slider{left:60%;}
-	#mito-gallery5:target ~ .image-slider{left:-60%;}
-	#mito-gallery6:target ~ .image-slider{left:-120%;}
-	#mito-gallery7:target ~ .image-slider{left:-180%;}
-
 }
 
 
