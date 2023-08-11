@@ -50,6 +50,10 @@ div{
 	background-size: cover;
 }
 
+h2 .home{
+	font-size: x-large;
+}
+
 .gallery{
 	position: relative;
 	height: fit-content;
@@ -87,25 +91,28 @@ h1{
 	display: inline;
 }
 
-.home .btn{
-	background-color: transparent;
+.btn{
+	font-size: small;
+	color: black;
+	color: #f2f2f2;
+	background-color: #108e3e;
+	border-color: #108e3e!important;
 	border: solid;
-	border-color: #d2cfca;
 	border-width: thin;
 	border-radius: 0px;
-	color: #d2cfca;
-	padding-left: 30px!important;
-	padding-right: 30px!important;
-	transition: .5s;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
 }
 
-.home .btn:hover{
-	background-color: #d2cfca;
-	border: solid;
-	border-color: #d2cfca;
-	border-width: thin;
-	border-radius: 0px;
-	color: black;
+.btn:hover{
+	color: #f2f2f2;
+	background-color: #155e32;
+	border-color: #155e32!important;
+}
+
+.btn:focus, .btn:active, .btn:hover{
+	box-shadow: none!important;
+	outline: 0;
 }
 
 .home-logo{
@@ -518,13 +525,12 @@ option{
 .modal{
 	max-width: 800px;
 	max-height: 540px;
-	background-image: url("../img/pop-salsa.jpg");
+	background-image: url("../img/pop-owl.jpg");
 	background-size: cover;
 	position: fixed;
 	margin: auto!important;
 	border: solid;
-	border-width: thick;
-	border-radius: 10px;
+	border-width: 15px;
 	box-shadow: 0 2px 4px 0 rgba(0,0,0,.8);
 	display: flex;
 }
