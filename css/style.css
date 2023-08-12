@@ -484,6 +484,7 @@ option{
 		background-position: center!important;
 		background-size: 100% auto;
 		background-repeat: no-repeat;
+		height: 80vh!important;
 	}
 
 	.gallery{
