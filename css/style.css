@@ -466,50 +466,6 @@ option{
 }
 
 
-.modal{
-	max-width: 800px;
-	max-height: 540px;
-	background-image: url("../img/pop-oct.jpg");
-	background-size: cover;
-	position: fixed;
-	margin: auto!important;
-	border: solid;
-	border-width: 15px;
-	box-shadow: 0 2px 4px 0 rgba(0,0,0,.8);
-	display: flex;
-}
-
-.close{
-	padding-right: 10px!important;
-	font-size: 40px;
-	font-weight: bolder;
-	color: white;
-}
-
-
-.modal-dialog{
-	display: flex;
-	left: 95%;
-}
-
-.modal-body{
-	display: flex;
-	justify-content: center;
-	top: 50%;
-}
-
-.btn-pop{
-	font-family: Verve;
-	font-size: x-large;
-	background-color: #555d44;
-	color: white;
-}
-
-.btn-pop:hover{
-	background-color: #333829;
-}
-
-
 .form-control{
 	background-color: transparent;
 	border-top: none;
@@ -728,10 +684,10 @@ input{
 		height: 60vh;
 	}
 	.box{
-		height: calc(100% - 5vh);
+		height: calc(100% - 10vh);
 	}
 
-	span a{
+	span h1{
 		font-size: xx-large!important;
 	}
 }
