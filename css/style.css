@@ -119,24 +119,28 @@ h1{
 }
 
 
-.btn{
+.btn-home{
+	font-family: 'Verve';
 	color: #f2f2f2;
+	font-size: xx-large;
 	background-image: linear-gradient(#BF9742, #4c3c1a);
-	border-color: #A47E3B!important;
 	border: none;
 	border-width: thin;
 	border-radius: 0px;
 	padding-bottom: 0px;
 	margin-bottom: 0px;
-	transition: .5s!important;
+	transition: .5s;
+	line-height: 8vh;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
 }
 
-.btn:hover{
+.btn-home:hover{
 	color: #f2f2f2;
-	transform: scale(1.05);
+	transform: scale(1.1);
 }
 
-.btn:focus, .btn:active, .btn:hover{
+.btn-home:focus, .btn-home:active, .btn-home:hover{
 	box-shadow: none!important;
 	outline: 0;
 }
@@ -668,19 +672,6 @@ input{
 
 	.op-hide{
 		display: block;
-	}
-
-	.modal{
-		max-width: 400px!important;
-		max-height: 270px!important;
-	}
-
-	.btn-pop{
-		font-size: medium!important;
-	}
-
-	.modal-dialog{
-		left: 90%!important;
 	}
 
 	.menu{
