@@ -627,9 +627,8 @@ input{
 	.home{
 		background-image: url("../img/backgrounds/home-bg-m.jpg")!important;
 		background-position: center!important;
-		background-size: 100% auto;
+		background-size: 100% 100%;
 		background-repeat: no-repeat;
-		height: 80vh!important;
 	}
 
 	.gallery{
