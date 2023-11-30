@@ -86,6 +86,13 @@ h2 .home{
 	background-color: black;
 }
 
+.img-event{
+	border: solid;
+	border-width: 2px;
+	border-color: #BF9742;
+	border-radius: 20px;
+}
+
 .gold{
 	background: -webkit-linear-gradient(#BF9742, #4c3c1a);
 	-webkit-background-clip: text;
