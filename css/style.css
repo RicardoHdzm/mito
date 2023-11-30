@@ -26,7 +26,7 @@ div{
 .navbar{
 	background-color: rgba(0, 0, 0, 0.8);
 	font-size: medium;
-	color:#fff;
+	color:#f2f2f2;
 	box-shadow: 0 2px 4px 0 rgba(0,0,0,1);
 	backdrop-filter: blur(10px);
 }
@@ -137,7 +137,7 @@ h1{
 	padding-bottom: 0px;
 	margin-bottom: 0px;
 	transition: .5s;
-	line-height: 8vh;
+	line-height: 50px;
 	padding-bottom: 0px;
 	margin-bottom: 0px;
 }
@@ -154,7 +154,7 @@ h1{
 
 .btn2{
 	font-family: 'Verve';
-	line-height: 8vh;
+	line-height: 50px;
 	font-size: x-large;
 	background: -webkit-linear-gradient(#BF9742, #4c3c1a);
 	-webkit-background-clip: text;
@@ -311,7 +311,7 @@ option{
 }
 
 ::placeholder{
-	color: white!important;
+	color: #f2f2f2!important;
 }
 
 .map-container{
@@ -536,7 +536,7 @@ option{
 	padding: 4% 2%;
 	box-sizing: border-box;
 	height: 100vh;
-	background-color: white;
+	background-color: #f2f2f2;
 	box-shadow: 0 10px 10px rgba(0,0,0,.8);
 	background-image: url("../img/backgrounds/menu-bg.png");
 	border-radius: 20px;
