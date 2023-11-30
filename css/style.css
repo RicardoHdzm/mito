@@ -64,7 +64,7 @@ h2 .home{
 	background-image: url();
 	background-color: #000000;
 	background-image: linear-gradient(
-		to bottom, transparent, black), url("../img/backgrounds/gallery.jpg");
+    to bottom, transparent, black), url("../img/backgrounds/gallery.jpg");
 	background-position: top;
 	background-size: cover;
 }
@@ -627,8 +627,9 @@ input{
 	.home{
 		background-image: url("../img/backgrounds/home-bg-m.jpg")!important;
 		background-position: center!important;
-		background-size: auto 100%;
+		background-size: 100vw 100vh!important;
 		background-repeat: no-repeat;
+		height: 100vh;
 	}
 
 	.gallery{
