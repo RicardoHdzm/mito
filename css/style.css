@@ -101,7 +101,7 @@ h2 .home{
 	background-color: #080808;
 	text-align: center;
 	color: #f2f2f2;
-	background-image: url("../img/backgrounds/black.png");
+	background-image: url("../img/backgrounds/gray-bg.png");
 	background-size: cover;
 	background-attachment: fixed;	
 }
@@ -234,6 +234,10 @@ h2{
 
 .img-footer{
 	width: 200px;
+}
+
+.jrhm{
+	background-color: #080808;
 }
 
 .align-items-center {
@@ -512,7 +516,7 @@ hr{
 
 
 .join-us{
-	background-image: url("../img/backgrounds/black.png");
+	background-image: url("../img/backgrounds/gray-bg.png");
 	background-size: cover;
 	background-attachment: fixed;	
 	background-color: #080808;
