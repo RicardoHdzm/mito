@@ -255,30 +255,6 @@ h2{
 	user-select: none;
 }
 
-#topBtn {
-	position: fixed; /* Fixed/sticky position */
-	bottom: 50px; /* Place the button at the bottom of the page */
-	right: 35px; /* Place the button 30px from the right */
-	z-index: 90; /* Make sure it does not overlap */
-	outline: none; /* Remove outline */
-	border: solid;
-	border-color: gray;
-	background-color: transparent; /* Set a background color */
-	border-width: 2px;
-	color: gray; /* Text color */
-	cursor: pointer; /* Add a mouse pointer on hover */
-	font-weight: bolder;
-	transition: 0.5s ease;
-	opacity: .5;
-	border-radius: 2px;
-
-}
-
-#topBtn:hover {
-	color: gray;
-	opacity: 1;
-}
-
 .icon-size{
 	vertical-align:bottom;
 	font-size: 22px;
