@@ -61,11 +61,11 @@ h2 .home{
 	position: relative;
 	height: fit-content;
 	text-align: center;
-	background-image: url("../img/backgrounds/gallery.jpg");
-	background-size: auto 100%;
+	background-image: url();
+	background-color: #000000;
+	background-image: linear-gradient(
+		to bottom, transparent, black), url("../img/backgrounds/gallery.jpg");
 	background-position: top;
-	text-align: center;
-	background-repeat: no-repeat;
 	background-size: cover;
 }
 
@@ -634,6 +634,7 @@ input{
 
 	.gallery{
 		height: fit-content;
+		background-size: auto 100%!important;
 	}
 
 	.border-news{

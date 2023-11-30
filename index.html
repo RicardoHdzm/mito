@@ -102,7 +102,7 @@
 	<hr>
 	<center><h1 class="gold">Happenings</h1></center>
 	<div class="py-5 owl-two owl-carousel owl-theme">
-		<div class="row pb-3">
+		<div class="row pb-3 px-5">
 			<div class="col-lg-6 pb-5 px-5">
 				<img src="img/events/event1.png">
 			</div>
@@ -114,12 +114,13 @@
 				<a href="https://www.yelp.com/biz/mito-roseville" target='_blank'><button class="btn2 btn-lg">Reserve Now</button></a>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-lg-6 px-5">
+		<div class="row pb-3 px-5">
+			<div class="col-lg-6 pb-5 px-5">
 				<img src="img/events/event1.png">
 			</div>
-			<div class="col-lg-6 px-5"><p><i>December 25th</i></p>
-				<h2 class="gold">Event name 2</h2>
+			<div class="col-lg-6 px-5">
+				<p class="subtext"><i>Sunday, December 31</i></p>
+				<h2 class="gold">New Year's Eve Party</h2>
 				<p>Lights, Flavors, Mythology, Unexpected Entertainment are key for your experience in this, that will be your favorite place. Awakening that grand Latin passion to celebrate life as if it’s your last day.</p>
 				<br>
 				<a href="https://www.yelp.com/biz/mito-roseville" target='_blank'><button class="btn2 btn-lg">Reserve Now</button></a>
@@ -610,10 +611,10 @@
 	$('.owl-two').owlCarousel({
 		loop:true,
 		margin:0,
-		nav:true,
+		nav:false,
 		dots:false,
 		autoplay:false,
-		stagePadding: 8,
+		stagePadding: 1,
 		responsive:{
 			0:{
 				items:1
@@ -622,7 +623,7 @@
 				items:1
 			},
 			1000:{
-				items:1
+				items:1.15
 			}
 		}
 	})
