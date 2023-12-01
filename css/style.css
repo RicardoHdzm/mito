@@ -395,17 +395,17 @@ option{
 
 /* Track */
 ::-webkit-scrollbar-track {
-	background: #1a1a1a;
+	background: #080808;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-	background: #f2f2f2;
+	background: #BF9742;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-	background: #BF9742;
+	background: #997935;
 }
 
 
