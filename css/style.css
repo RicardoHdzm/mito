@@ -70,6 +70,34 @@ h2 .home{
 }
 
 
+.img-gallery{
+	display: block;
+	width: 350px;
+	height: 350px;
+	overflow: hidden;
+	z-index: 2;
+	filter: saturate(10%);
+	transition: .5s;
+	border: solid;
+	border-color: transparent;
+	border-radius: 5%;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,.8);
+}
+
+.img-gallery:hover{
+	filter: saturate(100%);
+	transform: scale(1.2);
+}
+
+.img-mrg{
+	overflow: hidden;
+	display: inline-block;
+	border: solid;
+	border-color: transparent;
+	border-radius: 5%;
+}
+
+
 .home a{
 	color: #d2cfca;
 	text-decoration: none;
@@ -90,7 +118,7 @@ h2 .home{
 	border: solid;
 	border-width: 2px;
 	border-color: #BF9742;
-	border-radius: 20px;
+	border-radius: 5%;
 }
 
 .gold{
@@ -345,35 +373,6 @@ option{
 
 
 
-.img-gallery{
-	display: block;
-	width: 350px;
-	height: 350px;
-	overflow: hidden;
-	z-index: 2;
-	filter: saturate(10%);
-	transition: .5s;
-	border: solid;
-	border-color: transparent;
-	border-radius: 5%;
-	box-shadow: 0 2px 4px 0 rgba(0,0,0,.8);
-}
-
-.img-gallery:hover{
-	filter: saturate(100%);
-	transform: scale(1.1);
-}
-
-.img-mrg{
-	overflow: hidden;
-	display: inline-block;
-	border: solid;
-	border-color: transparent;
-	border-radius: 5%;
-}
-
-
-
 .footer{
 	background-color: black;
 	height: fit-content;
@@ -438,39 +437,6 @@ hr{
 	margin: 30px auto;
 	border-top: 15px solid #BF9742;
 	transform: rotate(45deg);
-}
-
-.menu-dish{
-	height: 350px;
-	background-image: url("../img/dish.jpg");
-	background-position: center;
-	background-attachment: fixed;
-	background-size: cover;
-
-}
-
-.menu-drinks{
-	height: 350px;
-	background-image: url("../img/drink.jpg");
-	background-position: center;
-	background-attachment: fixed;
-	background-size: cover;
-}
-
-.menu-brunch{
-	height: 350px;
-	background-image: url("../img/brunch.jpg");
-	background-position: center;
-	background-attachment: fixed;
-	background-size: cover;
-}
-
-.menu-hh{
-	height: 350px;
-	background-image: url("../img/hh.jpg");
-	background-position: center;
-	background-attachment: fixed;
-	background-size: cover;
 }
 
 .menu-logo{
@@ -565,26 +531,26 @@ option{
 }
 
 .box-brunch{
-	background-image: url("../img/brunch.jpg");
+	background-image: url("../img/menu/brunch.jpg");
 	background-size: cover;
 	filter: saturate(10%);
 }
 
 .box-dinner{
-	background-image: url("../img/dish.jpg");
+	background-image: url("../img/menu/dinner.jpg");
 	background-size: cover;
 	filter: saturate(10%);
 }
 
 .box-drinks{
-	background-image: url("../img/drink.jpg");
+	background-image: url("../img/menu/drink.jpg");
 	background-size: cover;
 	filter: saturate(10%);
 
 }
 
 .box-happyhour{
-	background-image: url("../img/hh.jpg");
+	background-image: url("../img/menu/hh.jpg");
 	background-size: cover;
 	filter: saturate(10%);
 }
@@ -629,10 +595,6 @@ option{
 		height: 100vh;
 	}
 
-	.gallery{
-		height: fit-content;
-		background-size: auto 100%!important;
-	}
 
 	.border-news{
 		border: none;
