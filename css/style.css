@@ -6,6 +6,13 @@ html, body{
 	overflow-x: hidden;
 }
 
+::selection {
+	background: #a17f37;
+	color: #fff;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: #fff;
+}
+
 
 @font-face {
 	font-family: Verve;
@@ -40,7 +47,8 @@ div{
 .navbar-nav>a:hover{
 	background: -webkit-linear-gradient(#BF9742, #4c3c1a);
 	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;	transform: translateY(-2px);
+	-webkit-text-fill-color: transparent;	
+	transform: translateY(-2px);
 	font-weight: bold;
 }
 
@@ -56,6 +64,7 @@ div{
 h2 .home{
 	font-size: x-large;
 }
+
 
 .gallery{
 	position: relative;
@@ -361,16 +370,24 @@ option{
 	filter: grayscale(100%) invert(100%);
 }
 
-.navbar-toggler{
-	border: none;
+.navbar-toggler { 
+	margin: 0 auto;
 }
 
-.navbar-toggler:focus, .navbar-toggler:active{
-	border: none!important;
-	outline: none !important;
-	box-shadow: none;
+.custom-toggler .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(191, 151, 66, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
+.custom-toggler.navbar-toggler {
+	border-color: transparent;
+	margin-right: -1em;
+} 
+
+
+.custom-toggler:focus, .custom-toggler:active, .custom-toggler:hover{
+	box-shadow: none!important;
+	outline: 0;
+}
 
 
 .footer{
@@ -437,6 +454,11 @@ hr{
 	margin: 30px auto;
 	border-top: 15px solid #BF9742;
 	transform: rotate(45deg);
+}
+
+.mito-hr{
+	width: 50px;
+	margin: 25px;
 }
 
 .menu-logo{
