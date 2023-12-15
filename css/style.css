@@ -136,6 +136,10 @@ h2 .home{
 	-webkit-text-fill-color: transparent;
 }
 
+.alto{
+	width: 150px;
+}
+
 .subtext{
 	font-size: small;
 }
