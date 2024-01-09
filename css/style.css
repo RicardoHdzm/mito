@@ -123,6 +123,10 @@ h2 .home{
 	background-color: black;
 }
 
+.events a{
+	color: #BF9742;
+}
+
 .img-event{
 	border: solid;
 	border-width: 2px;
