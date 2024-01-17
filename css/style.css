@@ -4,6 +4,10 @@ html, body{
 	font-family: 'OldNewsPaper';
 	scroll-behavior: smooth;
 	overflow-x: hidden;
+	background-image: url("../img/backgrounds/gallery.jpg");
+	background-position: top;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 ::selection {
@@ -53,7 +57,7 @@ div{
 }
 
 .home{
-	background-image: url(../img/backgrounds/home-bg.jpg);
+	background-image: url(../img/backgrounds/home-bg2.png);
 	text-align: center;
 	text-align: center;
 	background-position: center;
@@ -71,11 +75,6 @@ h2 .home{
 	height: fit-content;
 	text-align: center;
 	background-image: url();
-	background-color: #000000;
-	background-image: linear-gradient(
-		to bottom, transparent, black), url("../img/backgrounds/gallery.jpg");
-	background-position: top;
-	background-size: cover;
 }
 
 
@@ -114,13 +113,11 @@ h2 .home{
 
 .about{
 	height: fit-content;
-	background-color: black;
 	text-align: center;
 }
 
 .events{
 	height: fit-content;
-	background-color: black;
 }
 
 .events a{
@@ -150,17 +147,16 @@ h2 .home{
 
 .newsletter{
 	height: fit-content;
-	background-color: #080808;
 	text-align: center;
 	color: #f2f2f2;
-	background-image: url("../img/backgrounds/gray-bg.png");
-	background-size: cover;
-	background-attachment: fixed;	
 }
 
 .contact{
 	height: 100vh;
 	background-color: #bea57e;
+	background-image: linear-gradient(
+		to bottom, transparent, black), url("../img/backgrounds/gallery.jpg");
+	background-position: top;
 }
 
 
@@ -277,16 +273,7 @@ h2{
 	width: 180px;
 }
 
-.footer{
-	background-color: #060606;
-	height: fit-content;
-	font-size: small;
-	color: #d2cfca;
-}
 
-.img-footer{
-	width: 200px;
-}
 
 .jrhm{
 	background-color: #080808;
@@ -344,11 +331,6 @@ h2{
 }
 
 
-.img-footer{
-	width: 150px;
-}
-
-
 option{
 	background-color: #000000!important;
 }
@@ -367,10 +349,10 @@ option{
 	overflow:hidden;
 	position:relative;
 	height: 0;
-	border-top: solid;
-	border-bottom: solid;
+	border: solid;
 	border-color: #BF9742;
-	border-width: 5px;
+	border-width: thin;
+	border-radius: 10px;
 }
 
 .map-container iframe{
@@ -403,10 +385,17 @@ option{
 
 
 .footer{
-	background-color: black;
 	height: fit-content;
 	font-size: small;
-	color: #f2f2f2;
+	color: #d2cfca;
+}
+
+.footer b{
+	font-size: medium;
+}
+
+.img-footer{
+	width: 200px;
 }
 
 
@@ -479,10 +468,6 @@ hr{
 
 
 .join-us{
-	background-image: url("../img/backgrounds/gray-bg.png");
-	background-size: cover;
-	background-attachment: fixed;	
-	background-color: #080808;
 	text-align: center;
 }
 
@@ -494,13 +479,11 @@ hr{
 	border-radius: 5px;
 	border: solid;
 	border-width: thin;
-	border-color: transparent!important;
 	color: #BF9742;
 }
 
 .form-control:focus, .form-control:active{
 	background-color: #000000;
-	border-color: #000000;
 	box-shadow: none;
 	color: #BF9742;
 } 
