@@ -118,6 +118,7 @@ h2 .home{
 
 .events{
 	height: fit-content;
+	text-align: center;
 }
 
 .events a{
@@ -129,6 +130,10 @@ h2 .home{
 	border-width: 2px;
 	border-color: #BF9742;
 	border-radius: 5%;
+}
+
+.owl-two{
+	text-align: left;
 }
 
 .gold{
