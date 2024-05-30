@@ -28,6 +28,11 @@ html, body{
 	src: url(../fonts/OldNewspaperTypes.ttf);
 }
 
+@font-face {
+	font-family: Oceanside;
+	src: url(../fonts/Oceanside.ttf);
+}
+
 
 div{
 	margin: 0!important;
@@ -57,7 +62,7 @@ div{
 }
 
 .home{
-	background-image: url(../img/backgrounds/home-bg2.png);
+	background-image: url(../img/backgrounds/home-bg3.png);
 	text-align: center;
 	text-align: center;
 	background-position: center;
@@ -80,8 +85,8 @@ h2 .home{
 
 .img-gallery{
 	display: block;
-	width: 350px;
-	height: 350px;
+	width: 90%!important;
+	height: auto;
 	overflow: hidden;
 	z-index: 2;
 	filter: saturate(10%);
@@ -528,6 +533,7 @@ option{
 	box-shadow: 0 10px 10px rgba(0,0,0,.8);
 	background-image: url("../img/backgrounds/menu-bg.png");
 	border-radius: 20px;
+	background-size: cover;
 }
 
 .box {
@@ -577,7 +583,13 @@ option{
 	filter: saturate(10%);
 }
 
-.box-brunch:hover, .box-dinner:hover, .box-drinks:hover, .box-happyhour:hover{
+.box-kids{
+	background-image: url("../img/menu/kids.jpg");
+	background-size: cover;
+	filter: saturate(10%);
+}
+
+.box-brunch:hover, .box-dinner:hover, .box-drinks:hover, .box-happyhour:hover, .box-kids:hover{
 	filter: saturate(100%);
 }
 
@@ -647,3 +659,23 @@ option{
 	}
 }
 
+.loop{
+	animation: loopText 600s infinite linear;
+	font-family: Oceanside!important;
+	font-size: 32px;
+}
+
+@keyframes loopText{
+	from{
+		transform: translateX(0%);
+	}
+	to{
+		transform: translateX(-100%);
+	}
+}
+
+.wrap{
+	display: flex;
+	white-space: nowrap;
+	overflow: hidden;
+}
