@@ -201,6 +201,11 @@ h2, .footer h3{
 	font-size: 3.5rem;
 }
 
+.album p{
+	color: #000;
+	font-weight: bold;
+}
+
 .visit p{
 	color: #000;
 	font-weight: bold;
@@ -609,10 +614,6 @@ label{
 	.alto {
 		width: 150px;
 	}
-
-	.home{
-		margin-top: 10rem;
-	}
 	
 }
 
@@ -634,10 +635,6 @@ label{
 
 	h3, h4, p {
 		font-size: 0.95rem;
-	}
-
-	.home{
-		margin-top: 10rem;
 	}
 }
 
@@ -672,9 +669,6 @@ label{
 		font-size: 1.2rem;
 	}
 
-	.home{
-		margin-top: 0;
-	}
 }
 
 /* Teléfonos medianos (375px - 424px) */
@@ -725,16 +719,16 @@ label{
 }
 
 .img-order{
-	width: 5rem;
+	width: 4.5rem;
 	height: auto;
 	border-color: transparent;
 	transition: .5s;
-	margin: 1.5rem;
+	margin: 1rem;
 	border-radius: .5rem;
 }
 
 .img-order:hover{
-	transform: translateY(-10px);
+	transform: translateY(-5px);
 }
 
 .cardx{
