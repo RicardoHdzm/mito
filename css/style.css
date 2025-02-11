@@ -648,7 +648,7 @@ label{
 		height: fit-content;
 	}
 
-	.navbar.fixed-top{
+	.navbar.sticky-top{
 		position: static!important;
 	}
 
