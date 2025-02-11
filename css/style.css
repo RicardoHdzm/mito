@@ -80,6 +80,11 @@ h2, .footer h3{
 	width: 100vw;
 }
 
+.img-home {
+  width: 100%!important;
+  height: auto;
+}
+
 
 .nav-logo{
 	width: 10rem;
@@ -604,9 +609,11 @@ label{
 	.alto {
 		width: 150px;
 	}
+
 	.home{
 		margin-top: 10rem;
 	}
+	
 }
 
 /* Tablets (768px - 1024px) */
@@ -628,6 +635,10 @@ label{
 	h3, h4, p {
 		font-size: 0.95rem;
 	}
+
+	.home{
+		margin-top: 10rem;
+	}
 }
 
 /* Teléfonos grandes (425px - 767px) */
@@ -635,6 +646,10 @@ label{
 
 	.priv{
 		height: fit-content;
+	}
+
+	.navbar.fixed-top{
+		position: static!important;
 	}
 
 	.cardx h2{
@@ -655,6 +670,10 @@ label{
 
 	.btn, .priv .btn {
 		font-size: 1.2rem;
+	}
+
+	.home{
+		margin-top: 0;
 	}
 }
 
