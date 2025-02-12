@@ -299,7 +299,7 @@ p {
 }
 
 .footer-logo{
-	width: 125px;
+	height: 10rem;
 }
 
 
@@ -354,6 +354,10 @@ h2{
 
 .navicon{
 	width: 45px;
+}
+
+.icon-logo{
+	width: 8.5rem;
 }
 
 .navicon:hover{
