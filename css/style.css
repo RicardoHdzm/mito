@@ -971,4 +971,5 @@ img.zoom {
 
 .whapp{
   width: 3rem;
+  pointer-events: none;
 }
