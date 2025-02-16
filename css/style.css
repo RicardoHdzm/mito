@@ -72,10 +72,6 @@ h2, .footer h3{
 }
 
 
-.social-icont:hover{
-	color: #f2f2f2;
-}
-
 .home {
 	height: 100vh;
 	position: relative;
@@ -245,10 +241,6 @@ video {
 	border: solid thin #ebebeb;
 }
 
-.owl-two{
-	text-align: left;
-}
-
 .events .gold, .visit .gold, .album .gold{
 	color: #b69969;
 }
@@ -263,18 +255,6 @@ video {
 
 .alto{
 	width: 150px;
-}
-
-.newsletter{
-	height: fit-content;
-	text-align: center;
-	color: #f2f2f2;
-}
-
-.contact{
-	height: 100vh;
-	background-color: #D6B379;
-
 }
 
 
@@ -341,47 +321,8 @@ h2{
 	color: #000;
 }
 
-
-.op-show{
-	display: block;
-	transform: translateX(-80px)!important;
-}
-
-.op-hide{
-	display: none;
-}
-
-
-.contact h1{
-	font-size: 80px;
-	display: inline;
-}
-
-
-.news{
-	height: fit-content;
-}
-
-.text-center{
-	bottom: 0;
-	top: 45%;
-}
-
-
 .alto-logo{
 	width: 180px;
-}
-
-
-
-.jrhm{
-	background-color: #080808;
-}
-
-.align-items-center {
-	display: flex; 
-	align-items: center;  /*Aligns vertically center */
-	justify-content: center; /*Aligns horizontally center */
 }
 
 .navicon{
@@ -396,18 +337,6 @@ h2{
 	opacity: .7;
 }
 
-.arrow-size{
-	font-size: xx-large	;
-	user-select: none;
-}
-
-.icon-size{
-	vertical-align:bottom;
-	font-size: 22px;
-	color: #D6B379;
-	font-weight: bold;
-}
-
 
 .social-iconf{
 	font-size: 2.5rem;
@@ -419,12 +348,6 @@ h2{
 .social-iconf:hover{
 	transform: translateY(-2px);
 	color: #ebebeb;
-}
-
-
-
-.centering{
-	text-align: center;
 }
 
 
@@ -553,11 +476,6 @@ hr {
 	width: 100%;
 }
 
-
-.join-us{
-	text-align: center;
-}
-
 .priv{
 	background-image: url("../img/backgrounds/priv.jpg");
 	background-size: cover;
@@ -567,10 +485,6 @@ hr {
 
 .priv p{
 	font-size: 1.2rem;
-}
-
-.top-space{
-	height: 5rem;
 }
 
 
@@ -592,7 +506,6 @@ input:active, .form-control:active {
 	border-color: #F1F7EE;
 	color: #304347;
 }
-
 
 
 label{
@@ -869,24 +782,6 @@ label{
 
 .desserts{
 	background-image: url("../img/menu/desserts.jpeg");
-}
-
-#demo {
-	height:100%;
-	position:relative;
-	overflow:hidden;
-}
-
-
-.green{
-	background-color:#6fb936;
-}
-.thumb{
-	margin-bottom: 30px;
-}
-
-.page-top{
-	margin-top:85px;
 }
 
 
