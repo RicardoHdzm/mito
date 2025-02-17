@@ -8,10 +8,8 @@ body{
 }
 
 ::selection {
-	background: #a17f37;
-	color: #ebebeb;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: #ebebeb;
+	background: #d6b379;
+	color: #000;
 }
 
 section {
@@ -600,7 +598,7 @@ label{
 @media only screen and (max-width: 767px) {
 
 	.home-logo{
-		width: 80%;
+		width: 50%;
 		height: auto;
 	}
 
