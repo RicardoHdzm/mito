@@ -516,6 +516,13 @@ label{
 	color: #454645!important;
 }
 
+.loop{
+	animation: loopText 600s infinite linear;
+	font-family: Oceanside!important;
+	font-size: 36px;
+}
+
+
 @keyframes loopText{
 	from{
 		transform: translateX(0%);
@@ -677,11 +684,6 @@ label{
 }
 
 
-.loop{
-	animation: loopText 600s infinite linear;
-	font-family: Oceanside!important;
-	font-size: 36px;
-}
 
 .img-order{
 	width: 4.5rem;
@@ -859,10 +861,11 @@ img.zoom {
 
 #whappBtn:hover {
   background-color: #ab8f61;
-  transform: translateY(-5px);
+  transform: translateY(-.5rem);
 }
 
 .whapp{
   width: 3rem;
   pointer-events: none;
 }
+
