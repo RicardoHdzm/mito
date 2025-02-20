@@ -3,6 +3,7 @@ body{
 	color: #d2cfca;
 	font-family: 'OldNewsPaper';
 	scroll-behavior: smooth;
+	height: 100%;
 	overflow-x: hidden;
 	background-attachment: fixed;
 }
