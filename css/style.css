@@ -500,10 +500,10 @@ input, .form-control {
 
 input:focus, .form-control:focus,
 input:active, .form-control:active {
-	background-color: #F1F7EE;
+	background-color: #000;
 	box-shadow: none!important;
-	border-color: #F1F7EE;
-	color: #304347;
+	border: thin solid #e8e4d8;
+	color: #ebebeb;
 }
 
 
