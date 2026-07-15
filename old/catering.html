@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="description" content="Order catering from MITO Latin Cuisine and enjoy a fusion of Latin American flavors for your next event.">
+	<meta property="og:image" content="img/logos/preview.png">
+
+	<title>MITO | CATERING</title>
+
+	<link rel="icon" href="img/logos/navicon.png">
+	<link rel="stylesheet" href="fontawesome/css/fontawesome.min.css">
+	<link rel="stylesheet" href="fontawesome/css/brands.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<!-- ============ NAV ============ -->
+	<nav class="nav2 scrolled" id="nav2">
+		<a class="nav2-logo" href="index" aria-label="Navigate to the homepage">
+			<img src="img/logos/mito.png" alt="MITO Latin Cuisine">
+		</a>
+
+		<ul class="nav2-links" id="nav2Links">
+			<li><a href="menu">Menu</a></li>
+			<li><a href="index#events">What's New</a></li>
+			<li><a href="index#visit">Visit Us</a></li>
+			<li><a href="gallery">Gallery</a></li>
+			<li><a href="reserve">Private Dining</a></li>
+			<li><a href="catering" aria-current="page">Catering</a></li>
+		</ul>
+
+		<button class="nav2-toggle" id="nav2Toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav2Links">
+			<span class="burger2"></span>
+		</button>
+	</nav>
+
+	<!-- ============ PAGE HEADER ============ -->
+	<header class="page-header2">
+		<span class="eyebrow">Catering</span>
+		<h1>Catering at MITO</h1>
+	</header>
+
+	<!-- ============ DETAILS (split) ============ -->
+	<section class="section2" style="padding-bottom:0;">
+		<div class="container2 split2 reveal2">
+			<div class="split2-media is-placeholder">
+				<img src="img/logos/icon-home.png" alt="MITO Latin Cuisine" loading="lazy" decoding="async">
+			</div>
+			<div class="split2-text">
+				<span class="eyebrow">How It Works</span>
+				<h2>Pick Up Or We Deliver</h2>
+				<p class="lede">Bring the flavors of MITO to your next event! We offer catering for pick up or delivery for parties, meetings, and celebrations of all sizes.</p>
+				<ul class="hours2-list">
+					<li><span>Options</span><span>Pick Up or Delivery</span></li>
+					<li><span>Call Us</span><span>(612) 272-4891</span></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<!-- ============ FORM ============ -->
+	<section class="section2">
+		<div class="section2-header reveal2">
+			<span class="eyebrow">Place Your Order</span>
+			<h2>Request Catering</h2>
+		</div>
+		<form class="form2 reveal2" action="https://formspree.io/f/xvzegwvy" method="POST">
+			<input type="hidden" name="_next" value="https://mitolatincuisine.com/catering-sent.html">
+
+			<div class="form2-row">
+				<div class="form2-group">
+					<label for="Name">Name</label>
+					<input type="text" name="Name" id="Name" placeholder="Name" required>
+				</div>
+				<div class="form2-group">
+					<label for="inputGuests">Number of People</label>
+					<input type="number" name="Guests" id="inputGuests" placeholder="Number of People" min="1" required>
+				</div>
+			</div>
+
+			<div class="form2-row">
+				<div class="form2-group">
+					<label for="Email">Email</label>
+					<input type="email" name="Email" id="Email" placeholder="Email" required>
+				</div>
+				<div class="form2-group">
+					<label for="Phone">Phone Number</label>
+					<input type="text" name="Phone" id="Phone" placeholder="Phone Number" required>
+				</div>
+			</div>
+
+			<div class="form2-row">
+				<div class="form2-group">
+					<label for="date">Date</label>
+					<input type="date" id="date" name="reserve-date" required>
+				</div>
+				<div class="form2-group">
+					<label for="time">Time</label>
+					<input type="time" id="time" name="time" required>
+				</div>
+			</div>
+
+			<div class="form2-row">
+				<div class="form2-group">
+					<label for="orderType">Pick Up or Delivery</label>
+					<select name="Order Type" id="orderType" required>
+						<option value="" disabled selected>Select an option</option>
+						<option value="Pick Up">Pick Up</option>
+						<option value="Delivery">Delivery</option>
+					</select>
+				</div>
+				<div class="form2-group" id="deliveryAddressGroup" style="display:none;">
+					<label for="deliveryAddress">Delivery Address / City</label>
+					<input type="text" name="Delivery Address" id="deliveryAddress" placeholder="Delivery Address / City">
+				</div>
+			</div>
+
+			<div class="form2-actions">
+				<button type="submit" class="btn2 btn2-solid">Submit Request</button>
+				<p class="form2-phone">(612) 272-4891</p>
+			</div>
+		</form>
+	</section>
+
+	<!-- ============ FOOTER ============ -->
+	<footer class="footer2" id="footer">
+		<div class="container2">
+			<div class="footer2-top">
+				<img class="footer2-logo" src="img/logos/mito-logo.png" alt="MITO Latin Cuisine logo" loading="lazy" decoding="async">
+
+				<h3 class="eyebrow">Find us on</h3>
+				<div class="footer2-order">
+					<a href="" target="_blank" rel="noopener" aria-label="Order on Uber Eats"><img src="img/online/uber.png" alt="Uber Eats" loading="lazy" decoding="async"></a>
+					<a href="https://www.doordash.com/store/mito---2801-snelling-avenue-roseville-31162989/?srsltid=AfmBOooeQRIh6uBJ46tzGC6zoMsg5BI4xxqYZzdbCnjqysVm0A8K1SWT" target="_blank" rel="noopener" aria-label="Order on DoorDash"><img src="img/online/doordash.png" alt="DoorDash" loading="lazy" decoding="async"></a>
+					<a href="" target="_blank" rel="noopener" aria-label="Order on Grubhub"><img src="img/online/grubhub.png" alt="Grubhub" loading="lazy" decoding="async"></a>
+				</div>
+
+				<h3 class="eyebrow">Follow us</h3>
+				<div class="footer2-social">
+					<a href="https://www.facebook.com/profile.php?id=100088671164361" target="_blank" rel="noopener" aria-label="MITO on Facebook"><i class="fa-brands fa-facebook"></i></a>
+					<a href="https://www.instagram.com/mitolatincuisine/?fbclid=IwAR3y4V10Tz4ODn4ZNoPQvz6qsYYk1h9COUqZtwGw1gHEQJW6nea0pOR5Eug" target="_blank" rel="noopener" aria-label="MITO on Instagram"><i class="fa-brands fa-instagram"></i></a>
+					<a href="https://www.tiktok.com/@mitocuisine" target="_blank" rel="noopener" aria-label="MITO on TikTok"><i class="fa-brands fa-tiktok"></i></a>
+				</div>
+
+				<p>info<span style="color:var(--gold)">@</span>mitolatincuisine.com<br>(651) 330-8677</p>
+			</div>
+
+			<div class="footer2-meta">
+				<a href="https://www.altogroupmn.com/" target="_blank" rel="noopener"><img src="img/logos/alto.png" alt="Alto Group" loading="lazy" decoding="async"></a>
+				<span>© 2026 MITO LATIN CUISINE. ALL RIGHTS RESERVED. — DESIGNED BY JRHM WEB STUDIO</span>
+			</div>
+		</div>
+	</footer>
+
+	<a class="fab2" href="https://wa.me/16122724891" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+		<img src="img/logos/whatsapp.png" alt="" aria-hidden="true">
+	</a>
+
+	<script>
+		// Nav: solid background + mobile toggle
+		const nav2 = document.getElementById('nav2');
+		window.addEventListener('scroll', function () {
+			nav2.classList.toggle('scrolled', window.scrollY > 40);
+		}, { passive: true });
+		nav2.classList.toggle('scrolled', window.scrollY > 40);
+
+		const nav2Toggle = document.getElementById('nav2Toggle');
+		const nav2Links = document.getElementById('nav2Links');
+		nav2Toggle.addEventListener('click', function () {
+			const isOpen = nav2Links.classList.toggle('open');
+			nav2Toggle.classList.toggle('is-active', isOpen);
+			nav2Toggle.setAttribute('aria-expanded', isOpen);
+		});
+		nav2Links.querySelectorAll('a').forEach(function (link) {
+			link.addEventListener('click', function () {
+				nav2Links.classList.remove('open');
+				nav2Toggle.classList.remove('is-active');
+				nav2Toggle.setAttribute('aria-expanded', false);
+			});
+		});
+
+		// Default the date field to today and prevent past dates
+		const today = new Date();
+		const year = today.getFullYear();
+		const month = String(today.getMonth() + 1).padStart(2, '0');
+		const day = String(today.getDate()).padStart(2, '0');
+		const todayDate = `${year}-${month}-${day}`;
+		document.getElementById('date').value = todayDate;
+		document.getElementById('date').setAttribute('min', todayDate);
+
+		// Show the delivery address field only when "Delivery" is selected
+		const orderType = document.getElementById('orderType');
+		const deliveryAddressGroup = document.getElementById('deliveryAddressGroup');
+		const deliveryAddressInput = document.getElementById('deliveryAddress');
+		orderType.addEventListener('change', function () {
+			if (this.value === 'Delivery') {
+				deliveryAddressGroup.style.display = 'block';
+				deliveryAddressInput.setAttribute('required', 'required');
+			} else {
+				deliveryAddressGroup.style.display = 'none';
+				deliveryAddressInput.removeAttribute('required');
+				deliveryAddressInput.value = '';
+			}
+		});
+
+		// Reveal-on-scroll
+		const revealItems = document.querySelectorAll('.reveal2');
+		if ('IntersectionObserver' in window) {
+			const io = new IntersectionObserver(function (entries) {
+				entries.forEach(function (entry) {
+					if (entry.isIntersecting) {
+						entry.target.classList.add('is-visible');
+						io.unobserve(entry.target);
+					}
+				});
+			}, { threshold: 0.1 });
+			revealItems.forEach(function (el) { io.observe(el); });
+		} else {
+			revealItems.forEach(function (el) { el.classList.add('is-visible'); });
+		}
+	</script>
+</body>
+</html>

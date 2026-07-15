@@ -1,615 +1,370 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8">
 	<meta name="description" content="A space for tradition, flavors, & entertainment. Our mission is to transport a unique experience while making a tribute to Latin American gastronomy fusing recipes and flavors.">
-	<meta property="og:image" content="img/logos/preview.png">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>MITO | DISCOVER OUR MENU</title>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/sparks.css">
-	<link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
-	<script src="js/script.js"></script>
-	<link rel="icon" href="img/logos/navicon.png">
-	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="styles.css" />
-	<script src="https://kit.fontawesome.com/2716a2a48f.js" crossorigin="anonymous"></script>
 
+	<meta property="og:title" content="MITO LATIN CUISINE | OUT OF THIS WORLD">
+	<meta property="og:description" content="A space for tradition, flavors, & entertainment. Our mission is to transport a unique experience while making a tribute to Latin American gastronomy fusing recipes and flavors.">
+	<meta property="og:image" content="http://mitolatincuisine.com/img/logos/meta.png">
+	<meta property="og:url" content="https://mitolatincuisine.com/"/>
+
+	<title>MITO | GALLERY</title>
+
+	<link rel="icon" href="img/logos/navicon.png">
+	<link rel="stylesheet" href="fontawesome/css/fontawesome.min.css">
+	<link rel="stylesheet" href="fontawesome/css/brands.min.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-	<nav id="Navbar" class="navbar navbar-expand-xl sticky-top justify-content-between px-5">
-		<a class="navbar-brand py-5" href="index" aria-label="Navigate to the homepage">
-			<img src="img/logos/mito.png" alt="Mito's Icon" class="nav-logo">
+	<!-- ============ NAV ============ -->
+	<nav class="nav2 scrolled" id="nav2">
+		<a class="nav2-logo" href="index2" aria-label="Navigate to the homepage">
+			<img src="img/logos/mito.png" alt="MITO Latin Cuisine">
 		</a>
-		<button class="navbar-toggler ms-auto custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation menu">
-			<span class="navbar-toggler-icon"></span>
+
+		<ul class="nav2-links" id="nav2Links">
+			<li><a href="menu2">Menu</a></li>
+			<li><a href="index2#events">What's New</a></li>
+			<li><a href="index2#visit">Visit Us</a></li>
+			<li><a href="gallery2" aria-current="page">Gallery</a></li>
+			<li><a href="reserve2">Private Dining</a></li>
+			<li><a href="catering2">Catering</a></li>
+		</ul>
+
+		<button class="nav2-toggle" id="nav2Toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav2Links">
+			<span class="burger2"></span>
 		</button>
-		<div class="mr-sm-2">
-			<div class="collapse navbar-collapse mx-auto" id="navbarSupportedContent">
-				<ul class="navbar-nav mt-lg-0">
-					<li class="nav-item px-4 py-3"><a class="nav-link" href="menu" aria-label="Navigate to menu section">Menu</a></li>
-					<li class="nav-item px-4 py-3"><a class="nav-link" href="index#events" aria-label="Navigate to visit us section">What's New</a></li>
-					<li class="nav-item px-4 py-3"><a class="nav-link" href="index#visit" aria-label="Navigate to visit us section">Visit Us</a></li>
-					<li class="nav-item px-4 py-3"><a class="nav-link" href="#" aria-label="Navigate to visit us section">Gallery</a></li>
-					<li class="nav-item px-4 py-3"><a class="nav-link" href="reserve" aria-label="Navigate to reserve section">Private Dining</a></li>
-				</ul>
-			</div>
-		</div>
 	</nav>
 
-	<div id="gallery" class="album text-center container-fluid">
+	<!-- ============ PAGE HEADER ============ -->
+	<header class="page-header2">
+		<span class="eyebrow">Gallery</span>
+		<h1>Our Guests, Our Stars</h1>
+	</header>
+
+	<!-- ============ GALLERY GRID ============ -->
+	<section class="section2" style="padding-top:0;">
 		<div class="preview-overlay" id="previewOverlay">
 			<span class="close-preview" id="closePreview">&times;</span>
-			<img class="preview-img" id="previewImg" src="">
+			<img class="preview-img" id="previewImg" src="" alt="">
+			<div class="preview-nav-row">
+				<button type="button" class="preview-nav" id="previewPrev" aria-label="Previous image">&larr;</button>
+				<button type="button" class="preview-nav" id="previewNext" aria-label="Next image">&rarr;</button>
+			</div>
 		</div>
 
-		<div class="row h-100 py-5 px-0 px-lg-5 justify-content-center">
-			<div class="col-12 my-auto 5 p-5">
-				<img class="icon-logo mt-5" src="img/logos/icon-black.png">
-				<h1 class="mt-5">Our Guests, our stars</h1>
-				<p class="mb-5 gold">Uptaded: January 2025</p>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/01.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/02.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/03.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/04.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/05.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/06.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/07.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/08.jpg">
-				</div>
-			</div> 
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/09.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/10.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/11.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/12.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/13.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/14.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/15.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/16.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/17.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/19.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/20.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/21.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/22.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/23.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/24.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/26.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/27.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/28.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/29.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/30.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/31.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/32.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/34.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/35.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/36.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/37.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/38.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/39.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/40.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/41.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/42.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/43.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/44.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/45.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/46.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/47.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/48.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/50.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/51.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/52.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/53.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/54.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/55.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/56.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/57.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/59.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/60.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/61.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/62.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/63.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/64.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/65.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/66.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/67.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/68.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/69.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/70.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/71.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/72.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/73.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/74.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/75.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/76.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/77.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/78.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/79.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/80.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/81.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/82.jpg">
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-6 my-auto">
-				<div class="img-mrg img-border">		
-					<img class="img-gallery img-fluid" src="img/gallery/jan/83.jpg">
-				</div>
-			</div>
+		<div class="gallery2-grid reveal2">
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/1.jpg" alt="MITO gallery photo 1" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/2.jpg" alt="MITO gallery photo 2" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/3.jpg" alt="MITO gallery photo 3" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/4.jpg" alt="MITO gallery photo 4" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/5.jpg" alt="MITO gallery photo 5" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/6.jpg" alt="MITO gallery photo 6" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/7.jpg" alt="MITO gallery photo 7" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/8.jpg" alt="MITO gallery photo 8" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/9.jpg" alt="MITO gallery photo 9" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/10.jpg" alt="MITO gallery photo 10" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/11.jpg" alt="MITO gallery photo 11" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/12.jpg" alt="MITO gallery photo 12" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/13.jpg" alt="MITO gallery photo 13" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/14.jpg" alt="MITO gallery photo 14" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/15.jpg" alt="MITO gallery photo 15" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/16.jpg" alt="MITO gallery photo 16" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/17.jpg" alt="MITO gallery photo 17" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/18.jpg" alt="MITO gallery photo 18" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/19.jpg" alt="MITO gallery photo 19" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/20.jpg" alt="MITO gallery photo 20" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/21.jpg" alt="MITO gallery photo 21" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/22.jpg" alt="MITO gallery photo 22" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/23.jpg" alt="MITO gallery photo 23" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/24.jpg" alt="MITO gallery photo 24" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/25.jpg" alt="MITO gallery photo 25" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/26.jpg" alt="MITO gallery photo 26" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/27.jpg" alt="MITO gallery photo 27" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/28.jpg" alt="MITO gallery photo 28" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/29.jpg" alt="MITO gallery photo 29" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/30.jpg" alt="MITO gallery photo 30" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/31.jpg" alt="MITO gallery photo 31" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/32.jpg" alt="MITO gallery photo 32" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/33.jpg" alt="MITO gallery photo 33" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/34.jpg" alt="MITO gallery photo 34" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/35.jpg" alt="MITO gallery photo 35" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/36.jpg" alt="MITO gallery photo 36" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/37.jpg" alt="MITO gallery photo 37" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/38.jpg" alt="MITO gallery photo 38" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/39.jpg" alt="MITO gallery photo 39" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/40.jpg" alt="MITO gallery photo 40" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/41.jpg" alt="MITO gallery photo 41" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/42.jpg" alt="MITO gallery photo 42" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/43.jpg" alt="MITO gallery photo 43" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/44.jpg" alt="MITO gallery photo 44" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/45.jpg" alt="MITO gallery photo 45" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/46.jpg" alt="MITO gallery photo 46" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/47.jpg" alt="MITO gallery photo 47" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/48.jpg" alt="MITO gallery photo 48" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/49.jpg" alt="MITO gallery photo 49" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/50.jpg" alt="MITO gallery photo 50" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/51.jpg" alt="MITO gallery photo 51" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/52.jpg" alt="MITO gallery photo 52" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/53.jpg" alt="MITO gallery photo 53" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/54.jpg" alt="MITO gallery photo 54" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/55.jpg" alt="MITO gallery photo 55" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/56.jpg" alt="MITO gallery photo 56" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/57.jpg" alt="MITO gallery photo 57" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/58.jpg" alt="MITO gallery photo 58" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/59.jpg" alt="MITO gallery photo 59" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/60.jpg" alt="MITO gallery photo 60" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/61.jpg" alt="MITO gallery photo 61" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/62.jpg" alt="MITO gallery photo 62" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/63.jpg" alt="MITO gallery photo 63" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/64.jpg" alt="MITO gallery photo 64" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/65.jpg" alt="MITO gallery photo 65" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/66.jpg" alt="MITO gallery photo 66" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/67.jpg" alt="MITO gallery photo 67" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/68.jpg" alt="MITO gallery photo 68" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/69.jpg" alt="MITO gallery photo 69" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/70.jpg" alt="MITO gallery photo 70" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/71.jpg" alt="MITO gallery photo 71" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/72.jpg" alt="MITO gallery photo 72" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/73.jpg" alt="MITO gallery photo 73" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/74.jpg" alt="MITO gallery photo 74" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/75.jpg" alt="MITO gallery photo 75" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/76.jpg" alt="MITO gallery photo 76" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/77.jpg" alt="MITO gallery photo 77" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/78.jpg" alt="MITO gallery photo 78" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/79.jpg" alt="MITO gallery photo 79" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/80.jpg" alt="MITO gallery photo 80" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/81.jpg" alt="MITO gallery photo 81" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/82.jpg" alt="MITO gallery photo 82" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/83.jpg" alt="MITO gallery photo 83" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/84.jpg" alt="MITO gallery photo 84" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/85.jpg" alt="MITO gallery photo 85" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/86.jpg" alt="MITO gallery photo 86" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/87.jpg" alt="MITO gallery photo 87" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/88.jpg" alt="MITO gallery photo 88" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/89.jpg" alt="MITO gallery photo 89" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/90.jpg" alt="MITO gallery photo 90" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/91.jpg" alt="MITO gallery photo 91" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/92.jpg" alt="MITO gallery photo 92" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/93.jpg" alt="MITO gallery photo 93" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/94.jpg" alt="MITO gallery photo 94" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/95.jpg" alt="MITO gallery photo 95" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/96.jpg" alt="MITO gallery photo 96" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/97.jpg" alt="MITO gallery photo 97" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/98.jpg" alt="MITO gallery photo 98" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/99.jpg" alt="MITO gallery photo 99" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/100.jpg" alt="MITO gallery photo 100" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/101.jpg" alt="MITO gallery photo 101" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/102.jpg" alt="MITO gallery photo 102" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/103.jpg" alt="MITO gallery photo 103" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/104.jpg" alt="MITO gallery photo 104" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/105.jpg" alt="MITO gallery photo 105" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/106.jpg" alt="MITO gallery photo 106" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/107.jpg" alt="MITO gallery photo 107" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/108.jpg" alt="MITO gallery photo 108" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/109.jpg" alt="MITO gallery photo 109" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/110.jpg" alt="MITO gallery photo 110" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/111.jpg" alt="MITO gallery photo 111" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/112.jpg" alt="MITO gallery photo 112" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/113.jpg" alt="MITO gallery photo 113" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/114.jpg" alt="MITO gallery photo 114" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/115.jpg" alt="MITO gallery photo 115" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/116.jpg" alt="MITO gallery photo 116" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/117.jpg" alt="MITO gallery photo 117" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/118.jpg" alt="MITO gallery photo 118" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/119.jpg" alt="MITO gallery photo 119" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/120.jpg" alt="MITO gallery photo 120" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/121.jpg" alt="MITO gallery photo 121" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/122.jpg" alt="MITO gallery photo 122" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/123.jpg" alt="MITO gallery photo 123" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/124.jpg" alt="MITO gallery photo 124" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/125.jpg" alt="MITO gallery photo 125" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/126.jpg" alt="MITO gallery photo 126" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/127.jpg" alt="MITO gallery photo 127" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/128.jpg" alt="MITO gallery photo 128" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/129.jpg" alt="MITO gallery photo 129" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/130.jpg" alt="MITO gallery photo 130" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/131.jpg" alt="MITO gallery photo 131" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/132.jpg" alt="MITO gallery photo 132" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/133.jpg" alt="MITO gallery photo 133" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/134.jpg" alt="MITO gallery photo 134" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/135.jpg" alt="MITO gallery photo 135" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/136.jpg" alt="MITO gallery photo 136" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/137.jpg" alt="MITO gallery photo 137" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/138.jpg" alt="MITO gallery photo 138" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/139.jpg" alt="MITO gallery photo 139" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/140.jpg" alt="MITO gallery photo 140" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/141.jpg" alt="MITO gallery photo 141" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/142.jpg" alt="MITO gallery photo 142" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/143.jpg" alt="MITO gallery photo 143" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/144.jpg" alt="MITO gallery photo 144" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/145.jpg" alt="MITO gallery photo 145" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/146.jpg" alt="MITO gallery photo 146" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/147.jpg" alt="MITO gallery photo 147" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/148.jpg" alt="MITO gallery photo 148" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/149.jpg" alt="MITO gallery photo 149" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/150.jpg" alt="MITO gallery photo 150" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/151.jpg" alt="MITO gallery photo 151" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/152.jpg" alt="MITO gallery photo 152" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/153.jpg" alt="MITO gallery photo 153" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/154.jpg" alt="MITO gallery photo 154" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/155.jpg" alt="MITO gallery photo 155" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/august/156.jpg" alt="MITO gallery photo 156" loading="lazy" decoding="async"></div>
 		</div>
-	</div>
 
-
-	<section id="footer" class="footer py-5">
-		<div class="row h-100 justify-content-center text-center mx-5">
-			<div class="col-lg-12">
-
-				<a href=#><img class="footer-logo my-5" src="img/logos/mito-logo.png"></a>
-
-				<h3 class="gold my-5">Find us On</h3>
-
-				<a href="" target='_blank'><img class="img-order" src="img/online/uber.png"></a>
-				<a href="https://www.doordash.com/store/mito---2801-snelling-avenue-roseville-31162989/?srsltid=AfmBOooeQRIh6uBJ46tzGC6zoMsg5BI4xxqYZzdbCnjqysVm0A8K1SWT" target='_blank'><img class="img-order" src="img/online/doordash.png"></a>
-				<a href="" target='_blank'><img class="img-order" src="img/online/grubhub.png"></a>
-				<hr class="my-5">
-				<h3 class="gold my-5">FOLLOW US</h3>
-				<p class="my-5">
-					<a href="https://www.facebook.com/profile.php?id=100088671164361" target="_blank"><i class="fa-brands fa-facebook social-iconf"></i></a>
-					<a href="https://www.instagram.com/mitolatincuisine/?fbclid=IwAR3y4V10Tz4ODn4ZNoPQvz6qsYYk1h9COUqZtwGw1gHEQJW6nea0pOR5Eug" target="_blank"><i class="fa-brands fa-instagram social-iconf"></i></a>
-					<a href="https://www.tiktok.com/@mitocuisine" target="_blank"><i class="fa-brands fa-tiktok social-iconf"></i></a>
-				</p>
-				<p>info<span class="gold">@</span>mitolatincuisine.com</p><br>
-				<p>(651) 330-8677</p>
-				<div class="col-lg-12 text-center">
-					<a href="https://www.altogroupmn.com/" target="_blank"><img src="img/logos/alto.png" class="py-5 alto"></a>
-				</div>
-
-				<div class="col-lg-12 text-center copy">
-					© 2023 MITO LATIN CUISINE. ALL RIGHTS RESERVED.<br>DESIGNED BY @RICARDOHDZM
-				</div>
-			</div>
+		<div class="gallery2-cta">
+			<button type="button" class="btn2" id="galleryLoadMore">Load More</button>
 		</div>
 	</section>
 
-	<a href="https://wa.me/16122724891" target="_blank"><button id="whappBtn" title="Open WhatsApp"><img class="whapp" src="img/logos/whatsapp.png"></button></a>
+	<!-- ============ FOOTER ============ -->
+	<footer class="footer2" id="footer">
+		<div class="container2">
+			<div class="footer2-top">
+				<img class="footer2-logo" src="img/logos/mito-logo.png" alt="MITO Latin Cuisine logo" loading="lazy" decoding="async">
 
+				<h3 class="eyebrow">Find us on</h3>
+				<div class="footer2-order">
+					<a href="" target="_blank" rel="noopener" aria-label="Order on Uber Eats"><img src="img/online/uber.png" alt="Uber Eats" loading="lazy" decoding="async"></a>
+					<a href="https://www.doordash.com/store/mito---2801-snelling-avenue-roseville-31162989/?srsltid=AfmBOooeQRIh6uBJ46tzGC6zoMsg5BI4xxqYZzdbCnjqysVm0A8K1SWT" target="_blank" rel="noopener" aria-label="Order on DoorDash"><img src="img/online/doordash.png" alt="DoorDash" loading="lazy" decoding="async"></a>
+					<a href="" target="_blank" rel="noopener" aria-label="Order on Grubhub"><img src="img/online/grubhub.png" alt="Grubhub" loading="lazy" decoding="async"></a>
+				</div>
 
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-	<script src="/node_modules/jquery/dist/jquery.js"></script>
+				<h3 class="eyebrow">Follow us</h3>
+				<div class="footer2-social">
+					<a href="https://www.facebook.com/profile.php?id=100088671164361" target="_blank" rel="noopener" aria-label="MITO on Facebook"><i class="fa-brands fa-facebook"></i></a>
+					<a href="https://www.instagram.com/mitolatincuisine/?fbclid=IwAR3y4V10Tz4ODn4ZNoPQvz6qsYYk1h9COUqZtwGw1gHEQJW6nea0pOR5Eug" target="_blank" rel="noopener" aria-label="MITO on Instagram"><i class="fa-brands fa-instagram"></i></a>
+					<a href="https://www.tiktok.com/@mitocuisine" target="_blank" rel="noopener" aria-label="MITO on TikTok"><i class="fa-brands fa-tiktok"></i></a>
+				</div>
 
-	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+				<p>info<span style="color:var(--gold)">@</span>mitolatincuisine.com<br>(651) 330-8677</p>
+			</div>
+
+			<div class="footer2-meta">
+				<a href="https://www.altogroupmn.com/" target="_blank" rel="noopener"><img src="img/logos/alto.png" alt="Alto Group" loading="lazy" decoding="async"></a>
+				<span>© 2026 MITO LATIN CUISINE. ALL RIGHTS RESERVED. — DESIGNED BY JRHM WEB STUDIO</span>
+			</div>
+		</div>
+	</footer>
+
+	<a class="fab2" href="https://wa.me/16122724891" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+		<img src="img/logos/whatsapp.png" alt="" aria-hidden="true">
+	</a>
+
 	<script>
-		AOS.init({
-			duration: 3000,
-			disable: window.innerWidth < 768
+		// Nav: solid background + mobile toggle
+		const nav2 = document.getElementById('nav2');
+		window.addEventListener('scroll', function () {
+			nav2.classList.toggle('scrolled', window.scrollY > 40);
+		}, { passive: true });
+		nav2.classList.toggle('scrolled', window.scrollY > 40);
+
+		const nav2Toggle = document.getElementById('nav2Toggle');
+		const nav2Links = document.getElementById('nav2Links');
+		nav2Toggle.addEventListener('click', function () {
+			const isOpen = nav2Links.classList.toggle('open');
+			nav2Toggle.classList.toggle('is-active', isOpen);
+			nav2Toggle.setAttribute('aria-expanded', isOpen);
 		});
-	</script>
+		nav2Links.querySelectorAll('a').forEach(function (link) {
+			link.addEventListener('click', function () {
+				nav2Links.classList.remove('open');
+				nav2Toggle.classList.remove('is-active');
+				nav2Toggle.setAttribute('aria-expanded', false);
+			});
+		});
 
-	<script>
-		function showdiv() {
-			document.getElementById("divexample").style.visibility="visible";
-		}
-		setTimeout("showdiv()", 3000);
+		// Gallery pagination: reveal photos in batches instead of all 156 at once
+		(function () {
+			const BATCH_SIZE = 24;
+			const items = Array.from(document.querySelectorAll('.gallery2-grid .g2-item'));
+			const loadMoreBtn = document.getElementById('galleryLoadMore');
+			let shown = BATCH_SIZE;
 
-		function hidediv(){
-			document.getElementById("divexample").style.display="none";
-		}
-		setTimeout("hidediv()", 17000)
+			items.forEach(function (item, index) {
+				if (index >= BATCH_SIZE) item.classList.add('g2-hidden');
+			});
+			if (items.length <= BATCH_SIZE) loadMoreBtn.style.display = 'none';
 
-	</script>
+			loadMoreBtn.addEventListener('click', function () {
+				items.slice(shown, shown + BATCH_SIZE).forEach(function (item) {
+					item.classList.remove('g2-hidden');
+				});
+				shown += BATCH_SIZE;
+				if (shown >= items.length) loadMoreBtn.style.display = 'none';
+			});
+		})();
 
-	<script>
-		document.addEventListener("DOMContentLoaded", function () {
-			const images = document.querySelectorAll(".img-gallery");
-			const previewOverlay = document.getElementById("previewOverlay");
-			const previewImg = document.getElementById("previewImg");
-			const closePreview = document.getElementById("closePreview");
+		// Gallery lightbox with prev/next navigation
+		document.addEventListener('DOMContentLoaded', function () {
+			const images = Array.from(document.querySelectorAll('.img-gallery'));
+			const previewOverlay = document.getElementById('previewOverlay');
+			const previewImg = document.getElementById('previewImg');
+			const closePreview = document.getElementById('closePreview');
+			const previewPrev = document.getElementById('previewPrev');
+			const previewNext = document.getElementById('previewNext');
+			let currentIndex = 0;
 
-			images.forEach(image => {
-				image.addEventListener("click", function () {
-					previewImg.src = this.src;
-					previewOverlay.classList.add("active");
+			function showImage(index) {
+				currentIndex = (index + images.length) % images.length;
+				const image = images[currentIndex];
+				previewImg.src = image.src;
+				previewImg.alt = image.alt;
+			}
+
+			images.forEach(function (image, index) {
+				image.addEventListener('click', function () {
+					showImage(index);
+					previewOverlay.classList.add('active');
 				});
 			});
 
-			closePreview.addEventListener("click", function () {
-				previewOverlay.classList.remove("active");
+			previewPrev.addEventListener('click', function (e) {
+				e.stopPropagation();
+				showImage(currentIndex - 1);
 			});
 
-			previewOverlay.addEventListener("click", function (e) {
+			previewNext.addEventListener('click', function (e) {
+				e.stopPropagation();
+				showImage(currentIndex + 1);
+			});
+
+			closePreview.addEventListener('click', function () {
+				previewOverlay.classList.remove('active');
+			});
+
+			previewOverlay.addEventListener('click', function (e) {
 				if (e.target === previewOverlay) {
-					previewOverlay.classList.remove("active");
+					previewOverlay.classList.remove('active');
 				}
 			});
-		});
-	</script>
 
+			document.addEventListener('keydown', function (e) {
+				if (!previewOverlay.classList.contains('active')) return;
+				if (e.key === 'Escape') previewOverlay.classList.remove('active');
+				if (e.key === 'ArrowLeft') showImage(currentIndex - 1);
+				if (e.key === 'ArrowRight') showImage(currentIndex + 1);
+			});
+		});
+
+		// Reveal-on-scroll
+		const revealItems = document.querySelectorAll('.reveal2');
+		if ('IntersectionObserver' in window) {
+			const io = new IntersectionObserver(function (entries) {
+				entries.forEach(function (entry) {
+					if (entry.isIntersecting) {
+						entry.target.classList.add('is-visible');
+						io.unobserve(entry.target);
+					}
+				});
+			}, { threshold: 0.05 });
+			revealItems.forEach(function (el) { io.observe(el); });
+		} else {
+			revealItems.forEach(function (el) { el.classList.add('is-visible'); });
+		}
+	</script>
 </body>
 </html>

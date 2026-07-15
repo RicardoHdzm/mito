@@ -8,343 +8,361 @@
 	<meta property="og:title" content="MITO LATIN CUISINE | OUT OF THIS WORLD">
 	<meta property="og:description" content="A space for tradition, flavors, & entertainment. Our mission is to transport a unique experience while making a tribute to Latin American gastronomy fusing recipes and flavors.">
 	<meta property="og:image" content="http://mitolatincuisine.com/img/logos/meta.png">
-	<meta property=”og:url” content=”https://mitolatincuisine.com/”/>
-
+	<meta property="og:url" content="https://mitolatincuisine.com/"/>
 
 	<title>MITO | OUT OF THIS WORLD</title>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/sparks.css">
-	<link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
-	<script src="js/script.js"></script>
-	<script src="js/textroll.js"></script>
-	<link rel="icon" href="img/logos/navicon.png">
-	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="styles.css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<script src="https://kit.fontawesome.com/2716a2a48f.js" crossorigin="anonymous"></script>
 
+	<link rel="icon" href="img/logos/navicon.png">
+	<link rel="stylesheet" href="fontawesome/css/fontawesome.min.css">
+	<link rel="stylesheet" href="fontawesome/css/brands.min.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-	<nav id="Navbar" class="navbar navbar-expand-xl sticky-top justify-content-between px-5">
-		<a class="navbar-brand py-5" href="#" aria-label="Navigate to the homepage">
-			<img src="img/logos/mito.png" alt="Mito's Icon" class="nav-logo">
+	<!-- ============ NAV ============ -->
+	<nav class="nav2" id="nav2">
+		<a class="nav2-logo" href="index2" aria-label="Navigate to the homepage">
+			<img src="img/logos/mito.png" alt="MITO Latin Cuisine">
 		</a>
-		<button class="navbar-toggler ms-auto custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation menu">
-			<span class="navbar-toggler-icon"></span>
+
+		<ul class="nav2-links" id="nav2Links">
+			<li><a href="menu2">Menu</a></li>
+			<li><a href="index2#events">What's New</a></li>
+			<li><a href="index2#visit">Visit Us</a></li>
+			<li><a href="gallery2">Gallery</a></li>
+			<li><a href="reserve2">Private Dining</a></li>
+			<li><a href="catering2">Catering</a></li>
+		</ul>
+
+		<button class="nav2-toggle" id="nav2Toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav2Links">
+			<span class="burger2"></span>
 		</button>
-		<div class="mr-sm-2">
-			<div class="collapse navbar-collapse mx-auto" id="navbarSupportedContent">
-				<ul class="navbar-nav mt-lg-0">
-					<li class="nav-item px-4 py-3"><a class="nav-link" href="menu" aria-label="Navigate to menu section">Menu</a></li>
-					<li class="nav-item px-4 py-3"><a class="nav-link" href="#events" aria-label="Navigate to visit us section">What's New</a></li>
-					<li class="nav-item px-4 py-3"><a class="nav-link" href="#visit" aria-label="Navigate to visit us section">Visit Us</a></li>
-					<li class="nav-item px-4 py-3"><a class="nav-link" href="gallery" aria-label="Navigate to visit us section">Gallery</a></li>
-					<li class="nav-item px-4 py-3"><a class="nav-link" href="reserve" aria-label="Navigate to reserve section">Private Dining</a></li>
-				</ul>
-			</div>
-		</div>
 	</nav>
 
-	<section id="home" class="home text-center">
-		<video playsinline autoplay muted loop>
-			<source src="img/mito.mp4" type="video/mp4"></source>
-		</video>
-		<div class="row h-100 justify-content-center">
-			<div class="col-12 my-auto">
-				<img class="home-logo" src="img/logos/icon-home.png">
+	<!-- ============ HERO ============ -->
+	<section class="hero2" id="home">
+		<video id="heroVideo" playsinline muted loop preload="none" aria-hidden="true"></video>
+
+		<div class="hero2-content">
+			<span class="eyebrow">MITO Latin Cuisine</span>
+			<h1>A space for tradition, flavors &amp; entertainment</h1>
+			<div class="hero2-actions">
+				<a class="btn2 btn2-solid" href="https://tables.toasttab.com/restaurants/d30a98da-f6bb-4b9c-8ba3-a85cf36b1d41/findTime" target="_blank" rel="noopener">Reserve Now</a>
+				<a class="btn2 btn2-ghost" href="reserve2">Private Dining</a>
+			</div>
+		</div>
+
+		<div class="scroll-cue" aria-hidden="true">
+			<span>Scroll</span>
+			<span class="chevron"></span>
+		</div>
+	</section>
+
+	<!-- ============ ABOUT (split) ============ -->
+	<section class="section2" id="about">
+		<div class="container2 split2 reveal2">
+			<div class="split2-media">
+				<img src="img/gallery/07.jpg" alt="Interior atmosphere at MITO Latin Cuisine" loading="lazy" decoding="async">
+			</div>
+			<div class="split2-text">
+				<span class="eyebrow">The Experience</span>
+				<h2>Out Of This World</h2>
+				<p class="lede">Lights, Flavors, Mythology, Unexpected Entertainment are key for your experience in this, that will be your favorite place. Awakening that grand Latin passion to celebrate life as if it's your last day.</p>
+				<p>Experience the vibrant flavors of Latin America with a unique fusion of recipes and passion for great food, drinks, and life.</p>
 			</div>
 		</div>
 	</section>
 
+	<!-- ============ EVENTS ============ -->
+	<section class="section2 section2-alt" id="events">
+		<div class="container2 section2-header reveal2">
+			<span class="eyebrow">What's New</span>
+			<h2>The Latest Buzz</h2>
+		</div>
 
-
-	<section id="about" class="about text-center py-5">
-		<div class="row h-100 justify-content-center">
-			<div class="col-10 col-lg-8 my-auto">
-				<img class="icon-logo my-5" src="img/logos/navicon.png">
-				<h1>A space for tradition, flavors & entertainment</h1>
-				<p class="my-5">Lights, Flavors, Mythology, Unexpected Entertainment are key for your experience in this, that will be your favorite place. Awakening that grand Latin passion to celebrate life as if it’s your last day.</p>
-				<p><a href="https://www.yelp.com/biz/mito-roseville" target='_blank'><button class="btn my-3">Reserve Now</button></a></p>
-				<p><a href="reserve"><button class="btn mb-5">Private Dining</button></a></p>
+		<div class="marquee" aria-hidden="true">
+			<div class="marquee-track">
+				<span>Always Something New</span><span>&bull;</span><span>Always Something New</span><span>&bull;</span><span>Always Something New</span><span>&bull;</span><span>Always Something New</span><span>&bull;</span>
+				<span>Always Something New</span><span>&bull;</span><span>Always Something New</span><span>&bull;</span><span>Always Something New</span><span>&bull;</span><span>Always Something New</span><span>&bull;</span>
 			</div>
 		</div>
-	</section>
 
-	<section id="events" class="events py-5 text-center">
-		<div class="wrap my-5">
-			<h2 class="loop">The Latest Buzz&nbsp&nbsp The Latest Buzz&nbsp&nbsp The Latest Buzz&nbsp&nbsp The Latest Buzz&nbsp&nbsp The Latest Buzz&nbsp&nbsp The Latest Buzz&nbsp&nbsp The Latest Buzz&nbsp&nbsp The Latest Buzz&nbsp&nbsp The Latest Buzz&nbsp&nbsp The Latest Buzz&nbsp&nbsp The Latest Buzz&nbsp&nbsp The Latest Buzz&nbsp&nbsp The Latest Buzz&nbsp&nbsp The Latest Buzz&nbsp&nbsp The Latest Buzz&nbsp&nbsp The Latest Buzz&nbsp&nbsp The Latest Buzz&nbsp&nbsp The Latest Buzz&nbsp&nbsp The Latest Buzz&nbsp&nbsp The Latest Buzz&nbsp&nbsp The Latest Buzz&nbsp&nbsp The Latest Buzz&nbsp&nbsp The Latest Buzz&nbsp&nbsp The Latest Buzz</h2>
-		</div>
-
-		<div class="owl-events owl-carousel owl-theme">
-
-			<div class="row py-5 px-5 px-lg-0 justify-content-center">
-				<div class="col-lg-10 my-auto">
-					<p class="subtext">February 14th</p>
-					<h3>Love at first bite</h3>
-					<img class="img-event my-4" src="img/events/vday.jpg">
+		<div class="events2-track reveal2" id="events2Track">
+			<article class="event2-card">
+				<div class="event2-media">
+					<img src="img/events/taco.jpeg" alt="Taco Tuesday special at MITO" loading="lazy" decoding="async">
 				</div>
-			</div>
+				<div class="event2-body">
+					<span class="eyebrow">All Tuesdays</span>
+					<h3>Taco Tuesday</h3>
+				</div>
+			</article>
 
-			<div class="row py-5 px-5 px-lg-0 justify-content-center">
-				<div class="col-lg-10 my-auto">
-					<p class="subtext">Now Available</p>
+			<article class="event2-card">
+				<div class="event2-media">
+					<img src="img/events/priv.jpg" alt="Private dining space available to book" loading="lazy" decoding="async">
+				</div>
+				<div class="event2-body">
+					<span class="eyebrow">Now Available</span>
 					<h3>Book Your Event!</h3>
-					<img class="img-event my-4" src="img/events/priv.jpg">
 				</div>
-			</div>
+			</article>
 
-			<div class="row py-5 px-5 px-lg-0 justify-content-center">
-				<div class="col-lg-10 my-auto">
-					<p class="subtext">Now Available</p>
-					<h3>Are you craving?</h3>
-					<img class="img-event my-4" src="img/events/order.jpg">
+			<article class="event2-card">
+				<div class="event2-media">
+					<img src="img/events/order.jpg" alt="Order online from MITO" loading="lazy" decoding="async">
 				</div>
-			</div>
+				<div class="event2-body">
+					<span class="eyebrow">Now Available</span>
+					<h3>Are you craving?</h3>
+				</div>
+			</article>
 		</div>
-		<a href="https://www.yelp.com/biz/mito-roseville" target='_blank'><button class="btn my-5">Reserve Now</button></a>
+
+		<div class="events2-nav">
+			<button type="button" id="events2Prev" aria-label="Previous event">&larr;</button>
+			<button type="button" id="events2Next" aria-label="Next event">&rarr;</button>
+		</div>
+
+		<div class="gallery2-cta">
+			<a class="btn2" href="https://tables.toasttab.com/restaurants/d30a98da-f6bb-4b9c-8ba3-a85cf36b1d41/findTime" target="_blank" rel="noopener">Reserve Now</a>
+		</div>
 	</section>
 
-	<section id="discover" class="gallery text-center py-5">
+	<!-- ============ GALLERY / FLAVORS ============ -->
+	<section class="section2" id="discover">
 		<div class="preview-overlay" id="previewOverlay">
 			<span class="close-preview" id="closePreview">&times;</span>
-			<img class="preview-img" id="previewImg" src="">
+			<img class="preview-img" id="previewImg" src="" alt="">
+			<div class="preview-nav-row">
+				<button type="button" class="preview-nav" id="previewPrev" aria-label="Previous image">&larr;</button>
+				<button type="button" class="preview-nav" id="previewNext" aria-label="Next image">&rarr;</button>
+			</div>
 		</div>
-		<div class="my-3">
-			<div class="wrap">
-				<h2 class="loop gold my-5">Flavors  &nbsp&nbsp Flavors  &nbsp&nbsp Flavors  &nbsp&nbsp Flavors  &nbsp&nbsp Flavors  &nbsp&nbsp Flavors  &nbsp&nbsp Flavors  &nbsp&nbsp Flavors  &nbsp&nbsp Flavors  &nbsp&nbsp Flavors  &nbsp&nbsp Flavors  &nbsp&nbsp Flavors  &nbsp&nbsp Flavors  &nbsp&nbsp Flavors  &nbsp&nbsp Flavors  &nbsp&nbsp Flavors  &nbsp&nbsp Flavors  &nbsp&nbsp Flavors  &nbsp&nbsp Flavors  &nbsp&nbsp Flavors  &nbsp&nbsp Flavors  &nbsp&nbsp Flavors  &nbsp&nbsp Flavors  &nbsp&nbsp Flavors  &nbsp&nbsp Flavors  &nbsp&nbsp Flavors  &nbsp&nbsp Flavors  &nbsp&nbsp Flavors  &nbsp&nbsp Flavors  &nbsp&nbsp Flavors  &nbsp&nbsp Flavors  &nbsp&nbsp Flavors  &nbsp&nbsp Flavors  &nbsp&nbsp Flavors  &nbsp&nbsp Flavors  &nbsp&nbsp Flavors  &nbsp&nbsp Flavors  &nbsp&nbsp</h2>
-			</div>		
-			<div class="row h-100 px-5 justify-content-center">
-				<div class="col-lg-8 px-lg-5 my-auto">		
-					<p class="my-5">Experience the vibrant flavors of Latin America with a unique fusion of recipes and passion for great food, drinks, and life. Enjoy the best gastronomic experience that sets us apart.</p>
-				</div>
-			</div>
 
-			<div class="row h-100 p-5 px-0 px-lg-5">
-				<div class="container">
-					<div class="row">
-						<div class="col-4 img-mrg img-border">		
-							<img class="img-gallery img-fluid" src="img/gallery/16.jpg">
-						</div>
-						<div class="col-2">
-							<div class="img-mrg img-border">		
-								<img class="img-gallery img-fluid" src="img/gallery/04.jpg">
-							</div>
-							<div class="img-mrg img-border">
-								<img class="img-gallery img-fluid" src="img/gallery/06.jpg">
-							</div>
-						</div>
-						<div class="col-2">
-							<div class="img-mrg img-border">		
-								<img class="img-gallery img-fluid" src="img/gallery/09.jpg">
-							</div>
-							<div class="img-mrg img-border">
-								<img class="img-gallery img-fluid" src="img/gallery/10.jpg">
-							</div>
-						</div>
-						<div class="col-2">
-							<div class="img-mrg img-border">		
-								<img class="img-gallery img-fluid" src="img/gallery/11.jpg">
-							</div>
-							<div class="img-mrg img-border">
-								<img class="img-gallery img-fluid" src="img/gallery/12.jpg">
-							</div>
-						</div>
-						<div class="col-2">
-							<div class="img-mrg img-border">		
-								<img class="img-gallery img-fluid" src="img/gallery/01.jpg">
-							</div>
-							<div class="img-mrg img-border">
-								<img class="img-gallery img-fluid" src="img/gallery/13.jpg">
-							</div>
-						</div>
-						<div class="col-2">
-							<div class="img-mrg img-border">		
-								<img class="img-gallery img-fluid" src="img/gallery/14.jpg">
-							</div>
-							<div class="img-mrg img-border">
-								<img class="img-gallery img-fluid" src="img/gallery/17.jpg">
-							</div>
-						</div>
-						<div class="col-2">
-							<div class="img-mrg img-border">		
-								<img class="img-gallery img-fluid" src="img/gallery/18.jpg">
-							</div>
-							<div class="img-mrg img-border">
-								<img class="img-gallery img-fluid" src="img/gallery/19.jpg">
-							</div>
-						</div>
-						<div class="col-2">
-							<div class="img-mrg img-border">		
-								<img class="img-gallery img-fluid" src="img/gallery/20.jpg">
-							</div>
-							<div class="img-mrg img-border">
-								<img class="img-gallery img-fluid" src="img/gallery/05.jpg">
-							</div>
-						</div>
-						<div class="col-2">
-							<div class="img-mrg img-border">		
-								<img class="img-gallery img-fluid" src="img/gallery/07.jpg">
-							</div>
-							<div class="img-mrg img-border">
-								<img class="img-gallery img-fluid" src="img/gallery/08.jpg">
-							</div>
-						</div>
-						<div class="col-4 img-mrg img-border">		
-							<img class="img-gallery img-fluid" src="img/gallery/15.jpg">
-						</div>
-					</div>
-				</div>
+		<div class="container2 section2-header reveal2">
+			<span class="eyebrow">Gallery</span>
+			<h2>Flavors</h2>
+			<p class="lede" style="margin-left:auto;margin-right:auto;">Experience the vibrant flavors of Latin America with a unique fusion of recipes and passion for great food, drinks, and life. Enjoy the best gastronomic experience that sets us apart.</p>
+		</div>
+
+		<div class="marquee" aria-hidden="true">
+			<div class="marquee-track">
+				<span>Out Of This World</span><span>&bull;</span><span>Out Of This World</span><span>&bull;</span><span>Out Of This World</span><span>&bull;</span><span>Out Of This World</span><span>&bull;</span>
+				<span>Out Of This World</span><span>&bull;</span><span>Out Of This World</span><span>&bull;</span><span>Out Of This World</span><span>&bull;</span><span>Out Of This World</span><span>&bull;</span>
 			</div>
-			<a href="menu" target='_blank'><button class="btn my-5">Discorver our Menu</button></a>
+		</div>
+
+		<div class="gallery2-grid reveal2" style="margin-top:var(--space-5);">
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/16.jpg" alt="MITO gallery photo 16" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/04.jpg" alt="MITO gallery photo 4" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/06.jpg" alt="MITO gallery photo 6" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/09.jpg" alt="MITO gallery photo 9" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/10.jpg" alt="MITO gallery photo 10" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/11.jpg" alt="MITO gallery photo 11" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/12.jpg" alt="MITO gallery photo 12" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/01.jpg" alt="MITO gallery photo 1" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/13.jpg" alt="MITO gallery photo 13" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/14.jpg" alt="MITO gallery photo 14" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/17.jpg" alt="MITO gallery photo 17" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/18.jpg" alt="MITO gallery photo 18" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/19.jpg" alt="MITO gallery photo 19" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/20.jpg" alt="MITO gallery photo 20" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/05.jpg" alt="MITO gallery photo 5" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/07.jpg" alt="MITO gallery photo 7" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/08.jpg" alt="MITO gallery photo 8" loading="lazy" decoding="async"></div>
+			<div class="g2-item"><img class="img-gallery" src="img/gallery/15.jpg" alt="MITO gallery photo 15" loading="lazy" decoding="async"></div>
+		</div>
+
+		<div class="gallery2-cta">
+			<a class="btn2" href="menu2">Discover our Menu</a>
 		</div>
 	</section>
 
-	<section id="visit" class="visit py-5">
-		<div class="row justify-content-center">
-			<div class="col-lg-12 my-5">
-				<div class="wrap">
-					<h2 class="loop my-5">Dining Hours &nbsp&nbsp  Dining Hours &nbsp&nbsp Dining Hours &nbsp&nbsp Dining Hours &nbsp&nbsp Dining Hours &nbsp&nbsp Dining Hours &nbsp&nbsp Dining Hours &nbsp&nbsp Dining Hours &nbsp&nbsp Dining Hours &nbsp&nbsp Dining Hours &nbsp&nbsp Dining Hours &nbsp&nbsp Dining Hours &nbsp&nbsp Dining Hours &nbsp&nbsp Dining Hours &nbsp&nbsp Dining Hours &nbsp&nbsp Dining Hours &nbsp&nbsp Dining Hours &nbsp&nbsp Dining Hours &nbsp&nbsp Dining Hours &nbsp&nbsp Dining Hours &nbsp&nbsp Dining Hours &nbsp&nbsp Dining Hours &nbsp&nbsp Dining Hours &nbsp&nbsp Dining Hours &nbsp&nbsp Dining Hours &nbsp&nbsp Dining Hours &nbsp&nbsp Dining Hours &nbsp&nbsp Dining Hours &nbsp&nbsp Dining Hours &nbsp&nbsp Dining Hours &nbsp&nbsp Dining Hours &nbsp&nbsp Dining Hours &nbsp&nbsp Dining Hours &nbsp&nbsp</h2>
-				</div>			
-				<p class="my-5">
-					Monday: 4pm - 12am<br>
-					<b class="gold">Tuesday: Closed</b><br>
-					Wednesday: 4pm - 12am<br>
-					Thursday: 4pm - 12am<br>
-					Friday: 4pm - 2am<br>
-					Saturday: 11am - 3pm <b class="gold">//</b> 4pm - 2am<br>
-					Sunday: 11am - 3pm <b class="gold">//</b> 4pm - 12am
-				</p>
-			</div>	
-			<div class="wrap py-5">
-				<h2 class="loop">Location &nbsp&nbsp Location &nbsp&nbsp Location &nbsp&nbsp Location &nbsp&nbsp Location &nbsp&nbsp Location &nbsp&nbsp Location &nbsp&nbsp Location &nbsp&nbsp Location &nbsp&nbsp Location &nbsp&nbsp Location &nbsp&nbsp Location &nbsp&nbsp Location &nbsp&nbsp Location &nbsp&nbsp Location &nbsp&nbsp Location &nbsp&nbsp Location &nbsp&nbsp Location &nbsp&nbsp Location &nbsp&nbsp Location &nbsp&nbsp Location &nbsp&nbsp Location &nbsp&nbsp Location &nbsp&nbsp Location &nbsp&nbsp Location &nbsp&nbsp Location &nbsp&nbsp Location &nbsp&nbsp Location &nbsp&nbsp Location &nbsp&nbsp Location &nbsp&nbsp Location &nbsp&nbsp Location &nbsp&nbsp Location &nbsp&nbsp Location &nbsp&nbsp Location &nbsp&nbsp Location &nbsp&nbsp Location &nbsp&nbsp Location &nbsp&nbsp Location &nbsp&nbsp</h2>
-			</div>				
-			<p>2801 Snelling Ave, Roseville, MN 55113</p>
-			<div class="col-lg-10 col-10 my-5">
-				<div id="map-container-google-1" class="z-depth-1-half map-container">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1676.7488215228957!2d-93.16831547442072!3d45.02605928528465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b32ba3ba3fa307%3A0xddfb1bc1a4e542ff!2sMITO!5e0!3m2!1ses!2smx!4v1739265000156!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-				</div>
+	<!-- ============ VISIT (hours + map) ============ -->
+	<section class="section2 section2-alt" id="visit">
+		<div class="container2 visit2-grid reveal2">
+			<div class="visit2-info">
+				<span class="eyebrow">Visit Us</span>
+				<h2>Hours &amp; Location</h2>
+
+				<ul class="hours2-list">
+					<li><span>Monday</span><span>4pm – 11pm</span></li>
+					<li><span>Tuesday</span><span>4pm – 11pm</span></li>
+					<li><span>Wednesday</span><span>4pm – 11pm</span></li>
+					<li><span>Thursday</span><span>4pm – 11pm</span></li>
+					<li><span>Friday</span><span>4pm – 2am</span></li>
+					<li><span>Saturday</span><span>11am – 2am</span></li>
+					<li><span>Sunday</span><span>11am – 11pm</span></li>
+				</ul>
+
+				<p class="visit2-address">2801 Snelling Ave, Roseville, MN 55113</p>
+
+				<a class="btn2 btn2-solid" href="https://tables.toasttab.com/restaurants/d30a98da-f6bb-4b9c-8ba3-a85cf36b1d41/findTime" target="_blank" rel="noopener">Reserve Now</a>
 			</div>
-			<a href="https://www.yelp.com/biz/mito-roseville" target='_blank'><button class="btn my-5">Reserve Now</button></a>
-		</div>	
-	</section>
 
-	<section id="footer" class="footer py-5">
-		<div class="row h-100 justify-content-center text-center mx-5">
-			<div class="col-lg-12">
-
-				<a href=#><img class="footer-logo my-5" src="img/logos/mito-logo.png"></a>
-
-				<h3 class="gold my-5">Find us On</h3>
-
-				<a href="" target='_blank'><img class="img-order" src="img/online/uber.png"></a>
-				<a href="https://www.doordash.com/store/mito---2801-snelling-avenue-roseville-31162989/?srsltid=AfmBOooeQRIh6uBJ46tzGC6zoMsg5BI4xxqYZzdbCnjqysVm0A8K1SWT" target='_blank'><img class="img-order" src="img/online/doordash.png"></a>
-				<a href="" target='_blank'><img class="img-order" src="img/online/grubhub.png"></a>
-				<hr class="my-5">
-				<h3 class="gold my-5">FOLLOW US</h3>
-				<p class="my-5">
-					<a href="https://www.facebook.com/profile.php?id=100088671164361" target="_blank"><i class="fa-brands fa-facebook social-iconf"></i></a>
-					<a href="https://www.instagram.com/mitolatincuisine/?fbclid=IwAR3y4V10Tz4ODn4ZNoPQvz6qsYYk1h9COUqZtwGw1gHEQJW6nea0pOR5Eug" target="_blank"><i class="fa-brands fa-instagram social-iconf"></i></a>
-					<a href="https://www.tiktok.com/@mitocuisine" target="_blank"><i class="fa-brands fa-tiktok social-iconf"></i></a>
-				</p>
-				<p>info<span class="gold">@</span>mitolatincuisine.com</p><br>
-				<p>(651) 330-8677</p>
-				<div class="col-lg-12 text-center">
-					<a href="https://www.altogroupmn.com/" target="_blank"><img src="img/logos/alto.png" class="py-5 alto"></a>
-				</div>
-
-				<div class="col-lg-12 text-center copy">
-					© 2023 MITO LATIN CUISINE. ALL RIGHTS RESERVED.<br>DESIGNED BY @RICARDOHDZM
-				</div>
+			<div class="visit2-map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1676.7488215228957!2d-93.16831547442072!3d45.02605928528465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b32ba3ba3fa307%3A0xddfb1bc1a4e542ff!2sMITO!5e0!3m2!1ses!2smx!4v1739265000156!5m2!1ses!2smx" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="MITO Latin Cuisine location map"></iframe>
 			</div>
 		</div>
 	</section>
 
-	<a href="https://wa.me/16122724891" target="_blank"><button id="whappBtn" title="Open WhatsApp"><img class="whapp" src="img/logos/whatsapp.png"></button></a>
+	<!-- ============ FOOTER ============ -->
+	<footer class="footer2" id="footer">
+		<div class="container2">
+			<div class="footer2-top">
+				<img class="footer2-logo" src="img/logos/mito-logo.png" alt="MITO Latin Cuisine logo" loading="lazy" decoding="async">
 
+				<h3 class="eyebrow">Find us on</h3>
+				<div class="footer2-order">
+					<a href="" target="_blank" rel="noopener" aria-label="Order on Uber Eats"><img src="img/online/uber.png" alt="Uber Eats" loading="lazy" decoding="async"></a>
+					<a href="https://www.doordash.com/store/mito---2801-snelling-avenue-roseville-31162989/?srsltid=AfmBOooeQRIh6uBJ46tzGC6zoMsg5BI4xxqYZzdbCnjqysVm0A8K1SWT" target="_blank" rel="noopener" aria-label="Order on DoorDash"><img src="img/online/doordash.png" alt="DoorDash" loading="lazy" decoding="async"></a>
+					<a href="" target="_blank" rel="noopener" aria-label="Order on Grubhub"><img src="img/online/grubhub.png" alt="Grubhub" loading="lazy" decoding="async"></a>
+				</div>
 
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-	<script src="/node_modules/jquery/dist/jquery.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+				<h3 class="eyebrow">Follow us</h3>
+				<div class="footer2-social">
+					<a href="https://www.facebook.com/profile.php?id=100088671164361" target="_blank" rel="noopener" aria-label="MITO on Facebook"><i class="fa-brands fa-facebook"></i></a>
+					<a href="https://www.instagram.com/mitolatincuisine/?fbclid=IwAR3y4V10Tz4ODn4ZNoPQvz6qsYYk1h9COUqZtwGw1gHEQJW6nea0pOR5Eug" target="_blank" rel="noopener" aria-label="MITO on Instagram"><i class="fa-brands fa-instagram"></i></a>
+					<a href="https://www.tiktok.com/@mitocuisine" target="_blank" rel="noopener" aria-label="MITO on TikTok"><i class="fa-brands fa-tiktok"></i></a>
+				</div>
 
+				<p>info<span style="color:var(--gold)">@</span>mitolatincuisine.com<br>(651) 330-8677</p>
+			</div>
+
+			<div class="footer2-meta">
+				<a href="https://www.altogroupmn.com/" target="_blank" rel="noopener"><img src="img/logos/alto.png" alt="Alto Group" loading="lazy" decoding="async"></a>
+				<span>© 2026 MITO LATIN CUISINE. ALL RIGHTS RESERVED. — DESIGNED BY JRHM WEB STUDIO</span>
+			</div>
+		</div>
+	</footer>
+
+	<a class="fab2" href="https://wa.me/16122724891" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+		<img src="img/logos/whatsapp.png" alt="" aria-hidden="true">
+	</a>
 
 	<script>
-		AOS.init({
-			duration: 3000
+		// Nav: solid background after scrolling past the hero
+		const nav2 = document.getElementById('nav2');
+		window.addEventListener('scroll', function () {
+			nav2.classList.toggle('scrolled', window.scrollY > 40);
+		}, { passive: true });
+
+		// Nav: mobile menu toggle
+		const nav2Toggle = document.getElementById('nav2Toggle');
+		const nav2Links = document.getElementById('nav2Links');
+		nav2Toggle.addEventListener('click', function () {
+			const isOpen = nav2Links.classList.toggle('open');
+			nav2Toggle.classList.toggle('is-active', isOpen);
+			nav2Toggle.setAttribute('aria-expanded', isOpen);
 		});
-	</script>
-
-	<script>
-		$(document).ready(function(){
-			$('.owl-carousel').owlCarousel();
-		});
-	</script>
-
-	<script type="text/javascript">
-		$('.owl-events').owlCarousel({
-			loop:true,
-			margin:0,
-			nav:true,
-			dots:false,
-			autoplay:false,
-			stagePadding: 1,
-			responsive:{
-				0:{
-					items:1
-				},
-				600:{
-					items:1
-				},
-				1000:{
-					items:2.5
-				}
-			}
-		})
-	</script>
-
-</script>
-
-<script>
-	window.addEventListener("hashchange", () => {
-		if (
-			window.location.hash &&
-			window.location.hash.startsWith("#mito-gallery")
-			) {
-			document.getElementById("Slidex").scrollIntoView({behavior: "smooth"});
-	}
-});
-</script>
-
-<script>
-	document.addEventListener("DOMContentLoaded", function () {
-		const images = document.querySelectorAll(".img-gallery");
-		const previewOverlay = document.getElementById("previewOverlay");
-		const previewImg = document.getElementById("previewImg");
-		const closePreview = document.getElementById("closePreview");
-
-		images.forEach(image => {
-			image.addEventListener("click", function () {
-				previewImg.src = this.src;
-				previewOverlay.classList.add("active");
+		nav2Links.querySelectorAll('a').forEach(function (link) {
+			link.addEventListener('click', function () {
+				nav2Links.classList.remove('open');
+				nav2Toggle.classList.remove('is-active');
+				nav2Toggle.setAttribute('aria-expanded', false);
 			});
 		});
 
-		closePreview.addEventListener("click", function () {
-			previewOverlay.classList.remove("active");
+		// Hero video: load after the page is fully loaded, not on first paint
+		window.addEventListener('load', function () {
+			const heroVideo = document.getElementById('heroVideo');
+			const source = document.createElement('source');
+			source.src = 'img/mito.mp4';
+			source.type = 'video/mp4';
+			heroVideo.appendChild(source);
+			heroVideo.load();
+			heroVideo.play().catch(function () {});
 		});
 
-		previewOverlay.addEventListener("click", function (e) {
-			if (e.target === previewOverlay) {
-				previewOverlay.classList.remove("active");
+		// Events carousel: prev/next buttons, wraps around at the ends
+		const track = document.getElementById('events2Track');
+		const trackStep = function () { return track.firstElementChild.offsetWidth + 24; };
+		const atEnd = function () { return track.scrollLeft + track.clientWidth >= track.scrollWidth - 4; };
+		const atStart = function () { return track.scrollLeft <= 4; };
+
+		document.getElementById('events2Next').addEventListener('click', function () {
+			if (atEnd()) {
+				track.scrollTo({ left: 0, behavior: 'smooth' });
+			} else {
+				track.scrollBy({ left: trackStep(), behavior: 'smooth' });
 			}
 		});
-	});
-</script>
+		document.getElementById('events2Prev').addEventListener('click', function () {
+			if (atStart()) {
+				track.scrollTo({ left: track.scrollWidth, behavior: 'smooth' });
+			} else {
+				track.scrollBy({ left: -trackStep(), behavior: 'smooth' });
+			}
+		});
+
+		// Gallery lightbox, with prev/next navigation
+		document.addEventListener('DOMContentLoaded', function () {
+			const images = Array.from(document.querySelectorAll('.img-gallery'));
+			const previewOverlay = document.getElementById('previewOverlay');
+			const previewImg = document.getElementById('previewImg');
+			const closePreview = document.getElementById('closePreview');
+			const previewPrev = document.getElementById('previewPrev');
+			const previewNext = document.getElementById('previewNext');
+			let currentIndex = 0;
+
+			function showImage(index) {
+				currentIndex = (index + images.length) % images.length;
+				const image = images[currentIndex];
+				previewImg.src = image.src;
+				previewImg.alt = image.alt;
+			}
+
+			images.forEach(function (image, index) {
+				image.addEventListener('click', function () {
+					showImage(index);
+					previewOverlay.classList.add('active');
+				});
+			});
+
+			previewPrev.addEventListener('click', function (e) {
+				e.stopPropagation();
+				showImage(currentIndex - 1);
+			});
+
+			previewNext.addEventListener('click', function (e) {
+				e.stopPropagation();
+				showImage(currentIndex + 1);
+			});
+
+			closePreview.addEventListener('click', function () {
+				previewOverlay.classList.remove('active');
+			});
+
+			previewOverlay.addEventListener('click', function (e) {
+				if (e.target === previewOverlay) {
+					previewOverlay.classList.remove('active');
+				}
+			});
+
+			document.addEventListener('keydown', function (e) {
+				if (!previewOverlay.classList.contains('active')) return;
+				if (e.key === 'Escape') previewOverlay.classList.remove('active');
+				if (e.key === 'ArrowLeft') showImage(currentIndex - 1);
+				if (e.key === 'ArrowRight') showImage(currentIndex + 1);
+			});
+		});
+
+		// Reveal-on-scroll (vanilla replacement for AOS)
+		const revealItems = document.querySelectorAll('.reveal2');
+		if ('IntersectionObserver' in window) {
+			const io = new IntersectionObserver(function (entries) {
+				entries.forEach(function (entry) {
+					if (entry.isIntersecting) {
+						entry.target.classList.add('is-visible');
+						io.unobserve(entry.target);
+					}
+				});
+			}, { threshold: 0.15 });
+			revealItems.forEach(function (el) { io.observe(el); });
+		} else {
+			revealItems.forEach(function (el) { el.classList.add('is-visible'); });
+		}
+	</script>
 </body>
 </html>
