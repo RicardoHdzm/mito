@@ -10,8 +10,8 @@
 }
 
 @font-face {
-	font-family: Nexa;
-	src: url(../fonts/Nexa.otf);
+	font-family: Helvena;
+	src: url(../fonts/Helvena-Bold.ttf);
 	font-display: swap;
 }
 
@@ -31,7 +31,7 @@
 	--gold-dim: rgba(214, 179, 121, 0.35);
 
 	--font-display: 'Androgy', serif;
-	--font-body: 'Nexa', sans-serif;
+	--font-body: 'Helvena', sans-serif;
 	--font-loop: 'Verve', sans-serif;
 	--font-plain: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 
