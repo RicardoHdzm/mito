@@ -4,20 +4,20 @@
    ========================================================================== */
 
 @font-face {
+	font-family: Androgy;
+	src: url(../fonts/Androgy.ttf);
+	font-display: swap;
+}
+
+@font-face {
+	font-family: Nexa;
+	src: url(../fonts/Nexa.otf);
+	font-display: swap;
+}
+
+@font-face {
 	font-family: Verve;
 	src: url(../fonts/Verve.ttf);
-	font-display: swap;
-}
-
-@font-face {
-	font-family: OldNewsPaper;
-	src: url(../fonts/OldNewspaperTypes.ttf);
-	font-display: swap;
-}
-
-@font-face {
-	font-family: Oceanside;
-	src: url(../fonts/Oceanside.ttf);
 	font-display: swap;
 }
 
@@ -30,9 +30,9 @@
 	--gold-soft: #b69969;
 	--gold-dim: rgba(214, 179, 121, 0.35);
 
-	--font-display: 'Verve', serif;
-	--font-body: 'OldNewsPaper', sans-serif;
-	--font-loop: 'Oceanside', sans-serif;
+	--font-display: 'Androgy', serif;
+	--font-body: 'Nexa', sans-serif;
+	--font-loop: 'Verve', sans-serif;
 	--font-plain: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 
 	--space-1: 0.5rem;
@@ -82,10 +82,11 @@ a { color: inherit; }
 	color: var(--gold);
 }
 
-h1, h2, h3 { font-family: var(--font-display); margin: 0; font-weight: 400; }
+h1, h2, h3 { font-family: var(--font-display); margin: 0; font-weight: 400; text-transform: lowercase; }
+h1::first-letter, h2::first-letter, h3::first-letter { text-transform: uppercase; }
 
 h1 { font-size: clamp(2.75rem, 6vw, 5.5rem); line-height: 1.02; color: var(--paper); }
-h2 { font-size: clamp(2rem, 4vw, 3.25rem); color: var(--paper); text-transform: uppercase; }
+h2 { font-size: clamp(2rem, 4vw, 3.25rem); color: var(--paper); }
 h3 { font-size: clamp(1.5rem, 2.4vw, 2rem); color: var(--paper); }
 
 p { font-size: 1.05rem; line-height: 1.7; color: var(--stone); }
@@ -438,7 +439,7 @@ p { font-size: 1.05rem; line-height: 1.7; color: var(--stone); }
 
 .event2-media img { width: 100%; height: auto; filter: grayscale(20%); }
 
-.event2-body { padding: var(--space-4); }
+.event2-body { padding: var(--space-4); text-align: center; }
 .event2-body .eyebrow { display: block; margin-bottom: .5rem; }
 .event2-body h3 { margin-bottom: 0; font-size: clamp(1.75rem, 2.6vw, 2.5rem); }
 
@@ -826,7 +827,7 @@ p { font-size: 1.05rem; line-height: 1.7; color: var(--stone); }
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	box-shadow: 0 4px 20px rgba(0,0,0,.5);
+	box-shadow: 0 1px 4px rgba(0,0,0,.35);
 	transition: transform .3s var(--ease), background .3s var(--ease);
 }
 
